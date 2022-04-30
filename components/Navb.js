@@ -34,14 +34,14 @@ const Navb = () => {
               </Nav.Link>
               
               <Nav.Link className={styles.link} >
-                <Link href="/video">
-                    <p>ویدیوها</p>
+                <Link href="/bazikonan">
+                    <p>بازیکنان</p>
                 </Link>
               </Nav.Link>
 
               <Nav.Link className={styles.link} >
-                <Link href="/bazikon">
-                    <p>بازیکنان</p>
+                <Link href="/video">
+                    <p>ویدیوها</p>
                 </Link>
               </Nav.Link>
 

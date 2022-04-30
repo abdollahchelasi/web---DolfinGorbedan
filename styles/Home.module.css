@@ -9,6 +9,7 @@
 
 .main{
 padding-top: 1px;
+
 }
 .hom1{
   height: 250px;
@@ -67,7 +68,7 @@ padding-top: 1px;
 
 
 .footerr{
-  margin-top: 40px;
+  margin-top: 400px;
   color: rgb(255, 255, 255);
   background-color: rgb(21, 21, 26);
 }
@@ -77,7 +78,7 @@ padding-top: 1px;
 
 }
 
-/* Video */
+/* Bazikonan */
 
 .contmain{
   margin-top: 10px;
@@ -114,16 +115,25 @@ padding-top: 1px;
 
 
 
-/* Bazikonan */
+/* video */
 
 
 
 
-.bazikon{
-  background-color: aqua;
-}
+
 .bazikon1{
-  height: 100px;
-  
-background-color: aliceblue;  
+text-align: center;
+padding: 4px;
+border-radius: 4px;
+animation-name: example;
+animation-duration: 7s;
+animation-iteration-count: 3;
+box-shadow: cornsilk 1px 1px 8px 1px;
+margin-bottom: 10px;
+}
+
+
+
+.vid{
+width: 100%;
 }
