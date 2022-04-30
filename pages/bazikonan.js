@@ -15,8 +15,13 @@ function bazikonan() {
                         <Col sm={12} className={styles.titlevid}>بازیکنان ورزشی</Col>
                         <Col sm={12} className={styles.videoo}>
                                 <Row >
-                                    <Col className={styles.vidcoo1}>HI</Col>
-                                    <Col className={styles.vidcoo2}>HI</Col>
+                                    <Col className={styles.vidcoo1}>
+                                        <img className={styles.img1} src="images/passdolfin.jpg"/>
+                                    </Col>
+                                    <Col className={styles.vidcoo2}>
+                                    <img className={styles.img1} src="images/passdolfin.jpg"/>
+
+                                    </Col>
                                 </Row>
                         </Col>
 
