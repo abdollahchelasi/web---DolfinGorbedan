@@ -22,7 +22,7 @@ const Layout = ({ children }) => {
             
               
             <Col sm={12} className={styles.abdollah}>
-              این سایت توسط <span className={styles.abdol}>عبدالله چلاسی <img src="/images/a.jpg" className={styles.imabdol} width={20}/></span>ساخته شده است
+              این سایت توسط <a href="http://abdollahchelasi.ir/" target={'#'}><span className={styles.abdol}>عبدالله چلاسی <img src="/images/a.jpg" className={styles.imabdol} width={20}/></span></a>ساخته شده است
             </Col>
           </Row>
         </Container>
