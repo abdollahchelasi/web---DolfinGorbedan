@@ -68,7 +68,7 @@ padding-top: 1px;
 
 
 .link{
-  background-image: linear-gradient(to bottom right, rgb(10, 73, 245), rgb(252, 61, 14));
+  background-image: linear-gradient(to bottom right, rgb(126, 4, 34), rgb(3, 49, 109));
   text-decoration:none;
   padding: 2px;
   margin-top: 14px;
@@ -79,7 +79,7 @@ padding-top: 1px;
 }
 .link:hover{
   box-shadow: rgb(143, 139, 127) 1px 1px 4px 1px;
-  background-image: linear-gradient(to bottom right, rgb(214, 215, 216), rgb(252, 61, 14));
+  background-image: linear-gradient(to bottom right, rgb(132, 118, 255), rgb(228, 130, 130));
 }
 
 
