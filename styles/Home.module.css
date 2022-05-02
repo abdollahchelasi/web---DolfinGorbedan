@@ -84,9 +84,29 @@ padding-top: 1px;
 
 
 .footerr{
+  padding-top: 20px;
   margin-top: 400px;
-  color: rgb(255, 255, 255);
-  background-color: rgb(21, 21, 26);
+  color: rgb(111, 199, 240);
+  background-image: linear-gradient(to bottom right, rgb(6, 15, 41), rgb(56, 28, 21));
+}
+
+.abdollah{
+  padding-top: 30px;
+  color: white;
+  margin-bottom: 7px;
+}
+
+.abdol{
+  border-radius: 4px;
+  background-image: linear-gradient(to bottom right, rgb(84, 113, 201), rgb(207, 72, 38));
+  padding: 2px;
+  margin: 5px;
+  box-shadow: cornsilk 1px 1px 3px;
+}
+.imabdol{
+  margin-right: 2px;
+  border-radius: 50%;
+  box-shadow: white 1px 1px 7px;
 }
 
 .textdolfin{
