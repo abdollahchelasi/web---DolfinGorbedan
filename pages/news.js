@@ -15,7 +15,7 @@ function news() {
             scale: 1,
             opacity: 1,
             transition: {
-              delay: 0.6,
+              delay: 0.4,
             },
           },
         }}

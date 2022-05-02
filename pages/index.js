@@ -25,7 +25,7 @@ export default function Home() {
             scale: 1,
             opacity: 1,
             transition: {
-              delay: 0.6,
+              delay: 0.4,
             },
           },
         }}
@@ -44,6 +44,32 @@ export default function Home() {
             </Col>
             <Col className={styles.hom2} sm={5}>
 
+            <motion.div
+        initial="hidden"
+        animate="visible"
+        variants={{
+          hidden: {
+            scale: 0.8,
+            opacity: 0,
+          },
+          visible: {
+            scale: 1,
+            opacity: 1,
+            transition: {
+              delay: 0.9,
+            },
+          },
+        }}
+      >
+
+        <p className={styles.txtdolfin}>
+
+        باشگاه فوتبال دلفین گربدان یکی از پر افتخارترین و پر هوادارترین باشگاه های فوتبال در جزیره قشم است دلفین گربدان پیش از انقلاب ستاره جنوب گربدان نام داشت باشگاه هم اکنون در لیگ دسته دو قشم قرار گرفته
+        دلفین گربدان در سال 1324 در جزیره قشم روستای گربدان بنیان گذاری شده است
+
+        </p>
+
+        </motion.div>
               
 
               

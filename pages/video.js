@@ -2,6 +2,7 @@ import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import styles from "../styles/Home.module.css";
 import { motion } from "framer-motion";
+
 const video = () => {
   return (
     <div>
@@ -18,7 +19,7 @@ const video = () => {
             scale: 1,
             opacity: 1,
             transition: {
-              delay: 0.6,
+              delay: 0.4,
             },
           },
         }}
@@ -30,16 +31,8 @@ const video = () => {
           </Col>
           <Col sm={12} className={styles.videoo}>
             <Row>
-              <Col sm={6} className={styles.bazikon}>
-                <Col className={styles.bazikon1}>
-                  <video
-                    className={styles.vid}
-                    src="http://amoozeshgahjazire.ir/static/media/jazire.006d6accf424db3dae6f.mp4"
-                    controls
-                    style={{ width: "250", height: "150px" }}
-                  />
-                </Col>
-              </Col>
+
+              
 
               <Col sm={6} className={styles.bazikon}>
                 <Col className={styles.bazikon1}>

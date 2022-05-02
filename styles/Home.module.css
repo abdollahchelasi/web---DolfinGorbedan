@@ -4,6 +4,15 @@
   50%  {background-image: linear-gradient(to bottom right, rgb(92, 18, 18), rgb(46, 45, 95));}
   100% {background-image: linear-gradient(to bottom right, rgb(59, 13, 53), rgb(33, 34, 61));}
 }
+@keyframes txtdolfin{
+  0% {text-shadow: rgb(139, 139, 139) 1px 1px 5px;}
+  10% {text-shadow: rgb(221, 221, 177) 1px 1px 5px;}
+  30% {text-shadow: rgb(200, 247, 162) 1px 1px 5px;}
+  50% {text-shadow: rgb(158, 125, 250) 1px 1px 5px;}
+  70% {text-shadow: rgb(253, 159, 159) 1px 1px 5px;}
+  90% {text-shadow: rgb(175, 252, 245) 1px 1px 5px;}
+  100% {text-shadow: rgb(139, 247, 184) 1px 1px 5px;}
+}
 
 /* Home */
 
@@ -33,9 +42,8 @@ padding-top: 1px;
 
 
 .hom2{
-  height: 250px;
   margin: 2px;
-  background-color: rgb(68, 82, 82);
+  background-image: linear-gradient(to bottom right, rgb(10, 73, 245), rgb(95, 55, 45));
   box-shadow: rgb(36, 37, 37) 2px 6px 7px;
 }
 .navb{
@@ -49,6 +57,14 @@ padding-top: 1px;
   background-image: linear-gradient(to bottom right, rgb(10, 73, 245), rgb(95, 55, 45));
 }
 
+.txtdolfin{
+  animation-name: txtdolfin;
+  animation-duration: 5s;
+  animation-iteration-count: 2;
+  text-align: center;
+  color: rgb(51, 48, 48);
+  text-shadow: rgb(255, 255, 253) 1px 1px 6px;
+}
 
 
 .link{
