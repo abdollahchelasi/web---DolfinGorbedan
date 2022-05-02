@@ -101,13 +101,20 @@ padding-top: 1px;
   background-image: linear-gradient(to bottom right, rgb(84, 113, 201), rgb(207, 72, 38));
   padding: 2px;
   margin: 5px;
-  box-shadow: cornsilk 1px 1px 3px;
 }
+.abdol:hover{
+  box-shadow: cornsilk 1px 1px 7px;
+  color: rgb(20, 20, 20);
+
+}
+
 .imabdol{
   margin-right: 2px;
   border-radius: 50%;
-  box-shadow: white 1px 1px 7px;
+  box-shadow: rgb(19, 18, 18) 1px 1px 7px;
+
 }
+
 
 .textdolfin{
   background-image: linear-gradient(to bottom right, rgb(8, 33, 104), rgb(121, 30, 7));
