@@ -1,4 +1,6 @@
 import { motion } from "framer-motion";
+import { Container,Col, Row } from "react-bootstrap";
+import styles from '../styles/Home.module.css'
 
 function news() {
   return (
@@ -22,7 +24,15 @@ function news() {
       >
 
 
-        <h1>NEWS</h1>
+        <Container>
+          <Row>
+          
+          <Col sm={12} className={styles.titlevid}>
+            خبر های ورزشی
+          </Col>
+
+          </Row>
+        </Container>
 
 
 
