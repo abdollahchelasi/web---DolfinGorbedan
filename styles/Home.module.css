@@ -200,3 +200,29 @@ margin-bottom: 10px;
 .vid{
 width: 100%;
 }
+
+
+
+
+/* News */
+.khabar1{
+  padding: 5px;
+  background-color: antiquewhite;
+  border-radius: 5px;
+}
+
+.pkhabar{
+  padding-top: 23px;
+  text-align: center;
+}
+
+.ikhabar{
+  width: 50%;
+}
+.tarikh{
+  padding-top: 10px;
+  color: white;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  background-color: rgb(2, 20, 20);
+}

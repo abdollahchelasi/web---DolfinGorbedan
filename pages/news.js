@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
-import { Container,Col, Row } from "react-bootstrap";
-import styles from '../styles/Home.module.css'
+import { Container, Col, Row } from "react-bootstrap";
+import styles from "../styles/Home.module.css";
 
 function news() {
   return (
@@ -22,22 +22,51 @@ function news() {
           },
         }}
       >
-
-
         <Container>
           <Row>
-          
-          <Col sm={12} className={styles.titlevid}>
-            خبر های ورزشی
-          </Col>
-
+            <Col sm={12} className={styles.titlevid}>
+              خبر های ورزشی
+            </Col>
           </Row>
+
+          <Row className={styles.khabar1}>
+            <Col sm={6}>
+              <img className={styles.ikhabar} src="/images/i1.jpg" />
+            </Col>
+            <Col sm={6} className={styles.pkhabar}>
+              <p> همه نگاه‌ها به دلفین گربدان , لیگ 2 در اوج حساسیت </p>
+            </Col>
+
+            <Col sm={1} className={styles.tarikh}>
+              <p> 1395 </p>
+            </Col>
+          </Row>
+
+          <br />
+
+
+
+          <Row className={styles.khabar1}>
+            <Col sm={6}>
+              <img className={styles.ikhabar} src="/images/i1.jpg" />
+            </Col>
+            <Col sm={5} className={styles.pkhabar}>
+              <p> همه نگاه‌ها به دلفین گربدان , لیگ 2 در اوج حساسیت </p>
+            </Col>
+
+            <Col sm={1} className={styles.tarikh}>
+              <p> 1395 </p>
+            </Col>
+          </Row>
+
+
+
+
+
+
+
+
         </Container>
-
-
-
-
-
       </motion.div>
     </div>
   );
