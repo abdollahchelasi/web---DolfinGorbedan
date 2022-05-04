@@ -36,6 +36,8 @@ function bazikonan() {
 
               <Col sm={12} className={styles.videoo}>
                 <Row>
+                  <Col sm={2}/>
+
                   <Link href="images/i1.jpg">
                     <Col className={styles.vidcoo1}>
                       <img
@@ -53,6 +55,8 @@ function bazikonan() {
                       />
                     </Col>
                   </Link>
+                  
+                  <Col sm={2}/>
                 </Row>
               </Col>
 
@@ -60,6 +64,8 @@ function bazikonan() {
 
               <Col sm={12} className={styles.videoo}>
                 <Row>
+                <Col sm={2}/>
+
                   <Link href="images/i3.jpg">
                     <Col className={styles.vidcoo1}>
                       <img
@@ -77,12 +83,15 @@ function bazikonan() {
                       />
                     </Col>
                   </Link>
+
+                  <Col sm={2}/>
                 </Row>
               </Col>
 
 
               <Col sm={12} className={styles.videoo}>
                 <Row>
+                <Col sm={2}/>
                   <Link href="images/i5.jpg">
                     <Col className={styles.vidcoo1}>
                       <img
@@ -100,12 +109,16 @@ function bazikonan() {
                       />
                     </Col>
                   </Link>
+
+                  <Col sm={2}/>
                 </Row>
               </Col>
 
 
               <Col sm={12} className={styles.videoo}>
                 <Row>
+
+                <Col sm={2}/>
                   <Link href="images/i7.jpg">
                     <Col className={styles.vidcoo1}>
                       <img
@@ -123,6 +136,8 @@ function bazikonan() {
                       />
                     </Col>
                   </Link>
+
+                  <Col sm={2}/>
                 </Row>
               </Col>
 
@@ -130,6 +145,8 @@ function bazikonan() {
 
               <Col sm={12} className={styles.videoo}>
                 <Row>
+
+                <Col sm={2}/>
                   <Link href="images/i9.jpg">
                     <Col className={styles.vidcoo1}>
                       <img
@@ -147,6 +164,8 @@ function bazikonan() {
                       />
                     </Col>
                   </Link>
+
+                  <Col sm={2}/>
                 </Row>
               </Col>
 
@@ -155,6 +174,8 @@ function bazikonan() {
 
               <Col sm={12} className={styles.videoo}>
                 <Row>
+
+                <Col sm={2}/>
                   <Link href="images/i11.jpg">
                     <Col className={styles.vidcoo1}>
                       <img
@@ -172,12 +193,16 @@ function bazikonan() {
                       />
                     </Col>
                   </Link>
+
+                  <Col sm={2}/>
                 </Row>
               </Col>
 
 
               <Col sm={12} className={styles.videoo}>
                 <Row>
+
+                <Col sm={2}/>
                   <Link href="images/i13.jpg">
                     <Col className={styles.vidcoo1}>
                       <img
@@ -195,6 +220,8 @@ function bazikonan() {
                       />
                     </Col>
                   </Link>
+
+                  <Col sm={2}/>
                 </Row>
               </Col>
 
@@ -202,6 +229,8 @@ function bazikonan() {
 
               <Col sm={12} className={styles.videoo}>
                 <Row>
+
+                <Col sm={2}/>
                   <Link href="images/i15.jpg">
                     <Col className={styles.vidcoo1}>
                       <img
@@ -219,6 +248,8 @@ function bazikonan() {
                       />
                     </Col>
                   </Link>
+
+                  <Col sm={2}/>
                 </Row>
               </Col>
 
@@ -227,6 +258,8 @@ function bazikonan() {
 
               <Col sm={12} className={styles.videoo}>
                 <Row>
+
+                <Col sm={2}/>
                   <Link href="images/i17.jpg">
                     <Col className={styles.vidcoo1}>
                       <img
@@ -244,12 +277,16 @@ function bazikonan() {
                       />
                     </Col>
                   </Link>
+
+                  <Col sm={2}/>
                 </Row>
               </Col>
 
 
               <Col sm={12} className={styles.videoo}>
                 <Row>
+
+                <Col sm={2}/>
                   <Link href="images/i19.jpg">
                     <Col className={styles.vidcoo1}>
                       <img
@@ -267,6 +304,8 @@ function bazikonan() {
                       />
                     </Col>
                   </Link>
+
+                  <Col sm={2}/>
                 </Row>
               </Col>
 
@@ -274,6 +313,8 @@ function bazikonan() {
 
               <Col sm={12} className={styles.videoo}>
                 <Row>
+
+                <Col sm={2}/>
                   <Link href="images/i21.jpg">
                     <Col className={styles.vidcoo1}>
                       <img
@@ -291,6 +332,8 @@ function bazikonan() {
                       />
                     </Col>
                   </Link>
+
+                  <Col sm={2}/>
                 </Row>
               </Col>
 
@@ -300,6 +343,8 @@ function bazikonan() {
 
               <Col sm={12} className={styles.videoo}>
                 <Row>
+
+                <Col sm={2}/>
                   <Link href="images/i23.jpg">
                     <Col className={styles.vidcoo1}>
                       <img
@@ -317,12 +362,16 @@ function bazikonan() {
                       />
                     </Col>
                   </Link>
+
+                  <Col sm={2}/>
                 </Row>
               </Col>
 
 
               <Col sm={12} className={styles.videoo}>
                 <Row>
+
+                <Col sm={2}/>
                   <Link href="images/i25.jpg">
                     <Col className={styles.vidcoo1}>
                       <img
@@ -340,6 +389,8 @@ function bazikonan() {
                       />
                     </Col>
                   </Link>
+
+                  <Col sm={2}/>
                 </Row>
               </Col>
 
@@ -347,6 +398,8 @@ function bazikonan() {
 
               <Col sm={12} className={styles.videoo}>
                 <Row>
+
+                <Col sm={2}/>
                   <Link href="images/i27.jpg">
                     <Col className={styles.vidcoo1}>
                       <img
@@ -364,6 +417,8 @@ function bazikonan() {
                       />
                     </Col>
                   </Link>
+
+                  <Col sm={2}/>
                 </Row>
               </Col>
 
@@ -371,6 +426,8 @@ function bazikonan() {
 
               <Col sm={12} className={styles.videoo}>
                 <Row>
+
+                <Col sm={2}/>
                   <Link href="images/i29.jpg">
                     <Col className={styles.vidcoo1}>
                       <img
@@ -388,12 +445,16 @@ function bazikonan() {
                       />
                     </Col>
                   </Link>
+
+                  <Col sm={2}/>
                 </Row>
               </Col>
 
 
               <Col sm={12} className={styles.videoo}>
                 <Row>
+
+                <Col sm={2}/>
                   <Link href="images/i31.jpg">
                     <Col className={styles.vidcoo1}>
                       <img
@@ -411,12 +472,16 @@ function bazikonan() {
                       />
                     </Col>
                   </Link>
+
+                  <Col sm={2}/>
                 </Row>
               </Col>
 
 
               <Col sm={12} className={styles.videoo}>
                 <Row>
+
+                <Col sm={2}/>
                   <Link href="images/i33.jpg">
                     <Col className={styles.vidcoo1}>
                       <img
@@ -434,6 +499,8 @@ function bazikonan() {
                       />
                     </Col>
                   </Link>
+
+                  <Col sm={2}/>
                 </Row>
               </Col>
 
@@ -441,6 +508,8 @@ function bazikonan() {
 
               <Col sm={12} className={styles.videoo}>
                 <Row>
+
+                <Col sm={2}/>
                   <Link href="images/i35.jpg">
                     <Col className={styles.vidcoo1}>
                       <img
@@ -458,6 +527,8 @@ function bazikonan() {
                       />
                     </Col>
                   </Link>
+
+                  <Col sm={2}/>
                 </Row>
               </Col>
 
@@ -465,6 +536,8 @@ function bazikonan() {
 
               <Col sm={12} className={styles.videoo}>
                 <Row>
+
+                <Col sm={2}/>
                   <Link href="images/i37.jpg">
                     <Col className={styles.vidcoo1}>
                       <img
@@ -482,6 +555,8 @@ function bazikonan() {
                       />
                     </Col>
                   </Link>
+
+                  <Col sm={2}/>
                 </Row>
               </Col>
 
@@ -489,6 +564,7 @@ function bazikonan() {
 
               <Col sm={12} className={styles.videoo}>
                 <Row>
+                <Col sm={2}/>
                   <Link href="images/i39.jpg">
                     <Col className={styles.vidcoo1}>
                       <img
@@ -506,6 +582,8 @@ function bazikonan() {
                       />
                     </Col>
                   </Link>
+
+                  <Col sm={2}/>
                 </Row>
               </Col>
 
@@ -513,6 +591,7 @@ function bazikonan() {
 
               <Col sm={12} className={styles.videoo}>
                 <Row>
+                <Col sm={2}/>
                   <Link href="images/i41.jpg">
                     <Col className={styles.vidcoo1}>
                       <img
@@ -530,6 +609,7 @@ function bazikonan() {
                       />
                     </Col>
                   </Link>
+                  <Col sm={2}/>
                 </Row>
               </Col>
 
@@ -537,8 +617,9 @@ function bazikonan() {
 
               <Col sm={12} className={styles.videoo}>
                 <Row>
+                <Col sm={2}/>
                   <Link href="images/i43.jpg">
-                    <Col className={styles.vidcoo1}>
+                    <Col sm={4} className={styles.vidcoo1}>
                       <img
                         className={styles.img1}
                         src="images/i43.jpg"
@@ -547,13 +628,15 @@ function bazikonan() {
                   </Link>
 
                   <Link href="images/i44.jpg">
-                    <Col className={styles.vidcoo2}>
+                    <Col sm={4} className={styles.vidcoo2}>
                       <img
                         className={styles.img1}
                         src="images/i44.jpg"
                       />
                     </Col>
                   </Link>
+
+                  <Col sm={2}/>
                 </Row>
               </Col>
 
