@@ -29,20 +29,6 @@ function news() {
             </Col>
           </Row>
 
-          <Row className={styles.khabar1}>
-            <Col sm={6}>
-              <img className={styles.ikhabar} src="/images/i1.jpg" />
-            </Col>
-            <Col sm={6} className={styles.pkhabar}>
-              <p> همه نگاه‌ها به دلفین گربدان , لیگ 2 در اوج حساسیت </p>
-            </Col>
-
-            <Col sm={1} className={styles.tarikh}>
-              <p> 1395 </p>
-            </Col>
-          </Row>
-
-          <br />
 
 
 
@@ -58,6 +44,7 @@ function news() {
               <p> 1395 </p>
             </Col>
           </Row>
+
 
 
 
