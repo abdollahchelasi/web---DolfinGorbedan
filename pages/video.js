@@ -34,11 +34,11 @@ const video = () => {
 
               
 
-              <Col sm={6} className={styles.bazikon}>
+              <Col sm={6}  className={styles.bazikon}>
                 <Col className={styles.bazikon1}>
                   <video
                     className={styles.vid}
-                    src="http://amoozeshgahjazire.ir/static/media/jazire.006d6accf424db3dae6f.mp4"
+                    src="/video/d1.mp4"
                     controls
                     style={{ width: "250", height: "150px" }}
                   />
@@ -49,12 +49,53 @@ const video = () => {
                 <Col className={styles.bazikon1}>
                    <video
                   className={styles.vid}
-                    src="http://amoozeshgahjazire.ir/static/media/jazire.006d6accf424db3dae6f.mp4"
+                    src="/video/d2.mp4"
                     controls
                     style={{ width: "250", height: "150px" }}
                  / >
                 </Col>
               </Col>
+
+
+              <Col sm={6}  className={styles.bazikon}>
+                <Col className={styles.bazikon1}>
+                   <video
+                  className={styles.vid}
+                    src="/video/d3.mp4"
+                    controls
+                    style={{ width: "250", height: "150px" }}
+                 / >
+                </Col>
+              </Col>
+
+
+              <Col sm={6}  className={styles.bazikon}>
+                <Col className={styles.bazikon1}>
+                   <video
+                  className={styles.vid}
+                    src="/video/d5.mp4"
+                    controls
+                    style={{ width: "250", height: "150px" }}
+                 / >
+                </Col>
+              </Col>
+
+
+            
+
+              <Col sm={6} className={styles.bazikon}>
+                <Col className={styles.bazikon1}>
+                   <video
+                  className={styles.vid}
+                    src="/video/d6.mp4"
+                    controls
+                    style={{ width: "250", height: "150px" }}
+                 / >
+                </Col>
+              </Col>
+
+
+
             </Row>
           </Col>
         </Row>

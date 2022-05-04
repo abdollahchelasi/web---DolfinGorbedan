@@ -7,10 +7,15 @@ const Layout = ({ children }) => {
   return (
     <div dir="rtl">
       <Navb />
-      
-        <div>{children}</div>
+      <Container fluid>
 
-      <footer className={styles.footerr}>
+      <Row>
+        <Col sm={12}>
+        <div className={styles.child}>{children}</div>
+        </Col>
+
+        <Col sm={12}>
+        <footer className={styles.footerr}>
 
         <Container >
           <Row>
@@ -28,6 +33,13 @@ const Layout = ({ children }) => {
         </Container>
 
       </footer>
+        </Col>
+      </Row>
+
+      </Container>
+        
+
+      
     </div>
   );
 };

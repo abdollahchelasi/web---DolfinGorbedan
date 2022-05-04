@@ -19,6 +19,7 @@
 .main{
 padding-top: 1px;
 
+
 }
 .hom1{
   height: 250px;
@@ -58,6 +59,7 @@ padding-top: 1px;
 }
 
 .txtdolfin{
+  margin: 10px;
   animation-name: txtdolfin;
   animation-duration: 5s;
   animation-iteration-count: 2;
@@ -83,12 +85,7 @@ padding-top: 1px;
 }
 
 
-.footerr{
-  padding-top: 20px;
-  margin-top: 400px;
-  color: rgb(111, 199, 240);
-  background-image: linear-gradient(to bottom right, rgb(6, 15, 41), rgb(56, 28, 21));
-}
+
 
 .abdollah{
   padding-top: 30px;
@@ -114,9 +111,19 @@ padding-top: 1px;
   box-shadow: rgb(19, 18, 18) 1px 1px 7px;
 
 }
+.child{
+  margin-bottom: 100%;
+}
 
-
+.footerr{
+  padding-top: 20px;
+  width: 100%;
+  margin-top: 430px;
+  color: rgb(111, 199, 240);
+  background-image: linear-gradient(to bottom right, rgb(6, 15, 41), rgb(56, 28, 21));
+}
 .textdolfin{
+  padding: 5px;
   background-image: linear-gradient(to bottom right, rgb(8, 33, 104), rgb(121, 30, 7));
 
 }
@@ -127,6 +134,8 @@ padding-top: 1px;
   margin-top: 10px;
 }
 .titlevid{
+  border-radius: 5px;
+  box-shadow: white 1px 1px 7px;
   background-color: rgb(255, 255, 255);
   margin-bottom: 150px;
 }
@@ -142,22 +151,28 @@ padding-top: 1px;
  }
 
 .vidcoo1{
+  animation-name: example;
+  animation-duration: 5s;
+  animation-iteration-count: 3;
   height: 150px;
   width: 20px;
   margin-right: 2px;
   margin-top: 31px;
   transform: skewY(200deg);
   border-radius: 2px;
-  background-color: rgb(255, 255, 255);
+  background-image: linear-gradient(to bottom right, rgb(1, 11, 39), rgb(121, 30, 7));
 }
 .vidcoo2{
+  animation-name: example;
+  animation-duration: 5s;
+  animation-iteration-count: 3;
   height: 150px;
   width: 20px;
   margin-right: 2px;
   margin-top: 31px;
   transform: skewY(160deg);
   border-radius: 2px;
-  background-color: black;
+  background-image: linear-gradient(to bottom right, rgb(8, 33, 104), rgb(121, 30, 7));
 }
 
 

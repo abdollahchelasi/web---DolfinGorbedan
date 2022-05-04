@@ -10,6 +10,8 @@ function MyApp({ Component, pageProps }) {
 
        
       </Layout>
+
+      
     </>
   );
 }
