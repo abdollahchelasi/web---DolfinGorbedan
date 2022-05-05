@@ -8,7 +8,10 @@ function bazikonan() {
   return (
     <div>
       <Head>
-        <title>ویدیوهای ورزشی گربدان</title>
+        <title>بازیکنان دلفین گربدان</title>
+        <link rel='icon' href='/images/dolfin.png' />
+        <meta name="keywords" content="بازیکنان دلفین گربدان , بازیکنان جزیره قشم , عکسهای تیم دلفین گربدان"/>
+        <meta name="description" content="عکسهای بازیکنان باشگاه فرهنگی ورزشی دلفین گربدان"/>
       </Head>
       <main>
         <motion.div
@@ -31,7 +34,7 @@ function bazikonan() {
           <Container className={styles.contmain}>
             <Row>
               <Col sm={12} className={styles.titlevid}>
-                بازیکنان ورزشی
+                بازیکنان دلفین گربدان
               </Col>
 
               <Col sm={12} className={styles.videoo}>
@@ -619,7 +622,7 @@ function bazikonan() {
                 <Row>
                 <Col sm={2}/>
                   <Link href="images/i43.jpg">
-                    <Col sm={4} className={styles.vidcoo1}>
+                    <Col className={styles.vidcoo1}>
                       <img
                         className={styles.img1}
                         src="images/i43.jpg"
@@ -628,7 +631,7 @@ function bazikonan() {
                   </Link>
 
                   <Link href="images/i44.jpg">
-                    <Col sm={4} className={styles.vidcoo2}>
+                    <Col className={styles.vidcoo2}>
                       <img
                         className={styles.img1}
                         src="images/i44.jpg"

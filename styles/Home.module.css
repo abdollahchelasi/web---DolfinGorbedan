@@ -235,3 +235,24 @@ width: 100%;
   border-top-left-radius: 5px;
   background-color: rgb(2, 20, 20);
 }
+
+
+.news1{
+  color: aliceblue;
+  box-shadow: white 1px 1px 5px;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+.pp{
+  color: rgb(174, 175, 175);
+}
+
+.bazi{
+  border-radius: 3px;
+  background-color: aliceblue;
+}
+.imgkh{
+  width: 100%;
+  height: 70%;
+  border-radius: 11px;
+}
