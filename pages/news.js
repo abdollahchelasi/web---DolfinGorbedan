@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import Link from "next/link";
 import { Container, Col, Row } from "react-bootstrap";
 import styles from "../styles/Home.module.css";
 
@@ -29,28 +30,39 @@ function news() {
             </Col>
           </Row>
 
+          <Link href={"/news/khabar1/22"}>
+            <Row className={styles.khabar1}>
+              <Col sm={6}>
+                <img className={styles.ikhabar} src="/images/i1.jpg" />
+              </Col>
+              <Col sm={4} className={styles.pkhabar}>
+                <p> همه نگاه‌ها به دلفین گربدان , لیگ 2 در اوج حساسیت </p>
+              </Col>
 
+              <Col sm={2} className={styles.tarikh}>
+                <p>تاریخ بازی</p>
+                <p> 1395 </p>
+              </Col>
+            </Row>
+          </Link>
+          
+          <br/>
 
+          <Link href={"/news/khabar1/23"}>
+            <Row className={styles.khabar1}>
+              <Col sm={6}>
+                <img className={styles.ikhabar} src="/images/i1.jpg" />
+              </Col>
+              <Col sm={4} className={styles.pkhabar}>
+                <p> همه نگاه‌ها به دلفین گربدان , لیگ 2 در اوج حساسیت </p>
+              </Col>
 
-          <Row className={styles.khabar1}>
-            <Col sm={6}>
-              <img className={styles.ikhabar} src="/images/i1.jpg" />
-            </Col>
-            <Col sm={4} className={styles.pkhabar}>
-              <p> همه نگاه‌ها به دلفین گربدان , لیگ 2 در اوج حساسیت </p>
-            </Col>
-
-            <Col sm={2} className={styles.tarikh}>
-              <p>تاریخ بازی</p>
-              <p> 1395 </p>
-            </Col>
-          </Row>
-
-
-
-
-
-
+              <Col sm={2} className={styles.tarikh}>
+                <p>تاریخ بازی</p>
+                <p> 1395 </p>
+              </Col>
+            </Row>
+          </Link>
 
 
 

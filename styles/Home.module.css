@@ -162,6 +162,9 @@ padding-top: 1px;
   border-radius: 2px;
   background-image: linear-gradient(to bottom right, rgb(1, 11, 39), rgb(121, 30, 7));
 }
+.vidcoo1:hover{
+  cursor: pointer;
+}
 .vidcoo2{
   animation-name: example;
   animation-duration: 5s;
@@ -175,6 +178,9 @@ padding-top: 1px;
   background-image: linear-gradient(to bottom right, rgb(8, 33, 104), rgb(121, 30, 7));
 }
 
+.vidcoo2:hover{
+  cursor: pointer;
+}
 
 
 
@@ -209,6 +215,9 @@ width: 100%;
   padding: 5px;
   background-color: antiquewhite;
   border-radius: 5px;
+}
+.khabar1:hover{
+  cursor: pointer;
 }
 
 .pkhabar{
