@@ -7,15 +7,12 @@ const khabar1 = (props) => {
 
   return (
     <div>
-      {ruter.query.id == 22 ? <h1>22</h1> : 
-          <div> 
-              <Head>
-                  <title>صفحه مورد نظر یافت نشد</title>
-              </Head>
-               <img src="/images/404.svg" width={100}/>
-          </div>}
+      {ruter.query.id == 22 ? <h1>22</h1> : <h1></h1>}
 
-      {ruter.query.id == 23 ? <h1>23</h1> : <h1></h1>}
+
+          {ruter.query.id == 23 ? <h1>23</h1> : <h1></h1>}
+
+      
     </div>
   );
 };

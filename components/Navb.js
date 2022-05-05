@@ -10,7 +10,7 @@ const Navb = () => {
     
       <Navbar className={styles.navb}  variant="dark" expand="sm">
         <Container>
-          <img src="images/dolfin.png" width={50}/>
+          <img src="/images/dolfin.png" width={50}/>
           <Navbar.Brand href="#home">
           <img src='/images/toop.gif' width='30px'/>
             دلفین گربدان
