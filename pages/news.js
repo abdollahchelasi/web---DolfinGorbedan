@@ -46,7 +46,7 @@ function news() {
             </Col>
           </Row>
 
-          <Link href={"/Khabar1"}>
+          <Link href={"/news/khabar1"}>
             <Row className={styles.khabar1}>
               <Col sm={6}>
                 <Image className={styles.ikhabar} width={200} height={150} layout="intrinsic" src="/images/i34.jpg" />
@@ -64,7 +64,7 @@ function news() {
 
           <br />
 
-          <Link href={"/news/khabar1/2"}>
+          <Link href={"/news/khabar2"}>
             <Row className={styles.khabar1}>
               <Col sm={6}>
               <Image className={styles.ikhabar} width={200} height={150} layout="intrinsic" src="/images/i39.jpg" />
@@ -82,7 +82,7 @@ function news() {
 
           <br />
 
-          <Link href={"/news/khabar1/3"}>
+          <Link href={"/news/khabar3"}>
             <Row className={styles.khabar1}>
               <Col sm={6}>
               <Image className={styles.ikhabar} width={200} height={150} layout="intrinsic" src="/images/eft.jpg" />
