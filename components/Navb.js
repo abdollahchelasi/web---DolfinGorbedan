@@ -10,23 +10,23 @@ const Navb = () => {
     
       <Navbar className={styles.navb}  variant="dark" expand="sm">
         <Container>
-          <Image src="/images/dolfin.png" width={60} height={60} layout='intrinsic'/>
+          <Image alt="در حال بارگذاری ..." src="/images/dolfin.png" width={60} height={60} layout='intrinsic'/>
           <Navbar.Brand href="#home">
-          <Image layout='intrinsic' src='/images/toop.gif' width='30' height='30'/>
+          <Image alt="در حال بارگذاری ..." layout='intrinsic' src='/images/toop.gif' width='30' height='30'/>
             دلفین گربدان
-            <Image layout='intrinsic' src='/images/toop.gif' width='30' height='30'/>
+            <Image alt="در حال بارگذاری ..." layout='intrinsic' src='/images/toop.gif' width='30' height='30'/>
             </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
               <Nav.Link className={styles.link}>
-                <Link href="/">
+                <Link href="/" passHref>
                   <p>صفحه اصلی</p>                  
                 </Link>
               </Nav.Link>
 
               <Nav.Link className={styles.link}>
-                <Link href="/news">
+                <Link href="/news" passHref>
                   
                    <p> خبر ها</p>
                   
@@ -34,13 +34,13 @@ const Navb = () => {
               </Nav.Link>
               
               <Nav.Link className={styles.link} >
-                <Link href="/bazikonan">
+                <Link href="/bazikonan" passHref>
                     <p>بازیکنان</p>
                 </Link>
               </Nav.Link>
 
-              <Nav.Link className={styles.link} >
-                <Link href="/video">
+              <Nav.Link className={styles.link}  >
+                <Link href="/video" passHref>
                     <p>ویدیوها</p>
                 </Link>
               </Nav.Link>

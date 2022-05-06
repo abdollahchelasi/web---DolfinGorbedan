@@ -41,6 +41,7 @@ const khabar1 = () => {
               className={styles.imgkh}
               width={250}
               height={150}
+              alt="در حال بارگذاری ..."
               layout="responsive"
               src="/images/i34.jpg"
             />
@@ -101,6 +102,7 @@ const khabar1 = () => {
               className={styles.imgkh}
               width={250}
               height={150}
+              alt="در حال بارگذاری ..."
               layout="responsive"
               src="/images/jadval.jpg"
             />

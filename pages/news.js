@@ -46,10 +46,10 @@ function news() {
             </Col>
           </Row>
 
-          <Link href={"/news/khabar1"}>
+          <Link href={"/news/khabar1"} passHref>
             <Row className={styles.khabar1}>
               <Col sm={6}>
-                <Image className={styles.ikhabar} width={200} height={150} layout="intrinsic" src="/images/i34.jpg" />
+                <Image alt="در حال بارگذاری ..." className={styles.ikhabar} width={200} height={150} layout="intrinsic" src="/images/i34.jpg" />
               </Col>
               <Col sm={4} className={styles.pkhabar}>
                 <p> همه نگاه‌ها به دلفین گربدان , لیگ 2 در اوج حساسیت </p>
@@ -64,10 +64,10 @@ function news() {
 
           <br />
 
-          <Link href={"/news/khabar2"}>
+          <Link href={"/news/khabar2"} passHref>
             <Row className={styles.khabar1}>
               <Col sm={6}>
-              <Image className={styles.ikhabar} width={200} height={150} layout="intrinsic" src="/images/i39.jpg" />
+              <Image alt="در حال بارگذاری ..." className={styles.ikhabar} width={200} height={150} layout="intrinsic" src="/images/i39.jpg" />
               </Col>
               <Col sm={4} className={styles.pkhabar}>
                 <p> برد پرگل دلفین گربدان مقابل قایقسازی رمچاه </p>
@@ -82,10 +82,10 @@ function news() {
 
           <br />
 
-          <Link href={"/news/khabar3"}>
+          <Link href={"/news/khabar3"} passHref>
             <Row className={styles.khabar1}>
               <Col sm={6}>
-              <Image className={styles.ikhabar} width={200} height={150} layout="intrinsic" src="/images/eft.jpg" />
+              <Image alt="در حال بارگذاری ..." className={styles.ikhabar} width={200} height={150} layout="intrinsic" src="/images/eft.jpg" />
               </Col>
               <Col sm={4} className={styles.pkhabar}>
                 <p> افتتاح و بهره برداری زمین چمن مصنوعی دلفین روستای گربدان قشم </p>

@@ -48,9 +48,10 @@ function bazikonan() {
                 <Row>
                   <Col sm={2} />
 
-                  <Link href="/images/i1.jpg">
+                  <Link href="/images/i1.jpg" passHref>
                     <Col className={styles.vidcoo1}>
                       <Image
+                        alt="در حال بارگذاری ..."
                         layout="fill"
                         width={100}
                         height={100}
@@ -60,9 +61,10 @@ function bazikonan() {
                     </Col>
                   </Link>
 
-                  <Link href="/images/passdolfin.jpg">
+                  <Link href="/images/passdolfin.jpg" passHref>
                     <Col className={styles.vidcoo2}>
                       <Image
+                        alt="در حال بارگذاری ..."
                         layout="fill"
                         width={100}
                         height={100}
@@ -80,9 +82,10 @@ function bazikonan() {
                 <Row>
                   <Col sm={2} />
 
-                  <Link href="/images/i3.jpg">
+                  <Link href="/images/i3.jpg" passHref>
                     <Col className={styles.vidcoo1}>
                       <Image
+                      alt="در حال بارگذاری ..."
                         layout="fill"
                         width={100}
                         height={100}
@@ -92,9 +95,10 @@ function bazikonan() {
                     </Col>
                   </Link>
 
-                  <Link href="/images/i4.jpg">
+                  <Link href="/images/i4.jpg" passHref>
                     <Col className={styles.vidcoo2}>
                       <Image
+                      alt="در حال بارگذاری ..."
                         layout="fill"
                         width={100}
                         height={100}
@@ -111,9 +115,10 @@ function bazikonan() {
               <Col sm={12} className={styles.videoo}>
                 <Row>
                   <Col sm={2} />
-                  <Link href="/images/i5.jpg">
+                  <Link href="/images/i5.jpg" passHref>
                     <Col className={styles.vidcoo1}>
                       <Image
+                      alt="در حال بارگذاری ..."
                         layout="fill"
                         width={100}
                         height={100}
@@ -123,9 +128,10 @@ function bazikonan() {
                     </Col>
                   </Link>
 
-                  <Link href="/images/i6.jpg">
+                  <Link href="/images/i6.jpg" passHref>
                     <Col className={styles.vidcoo2}>
                       <Image
+                      alt="در حال بارگذاری ..."
                         layout="fill"
                         width={100}
                         height={100}
@@ -142,9 +148,10 @@ function bazikonan() {
               <Col sm={12} className={styles.videoo}>
                 <Row>
                   <Col sm={2} />
-                  <Link href="/images/i7.jpg">
+                  <Link href="/images/i7.jpg" passHref>
                     <Col className={styles.vidcoo1}>
                       <Image
+                      alt="در حال بارگذاری ..."
                         layout="fill"
                         width={100}
                         height={100}
@@ -154,9 +161,10 @@ function bazikonan() {
                     </Col>
                   </Link>
 
-                  <Link href="/images/i8.jpg">
+                  <Link href="/images/i8.jpg" passHref>
                     <Col className={styles.vidcoo2}>
                       <Image
+                      alt="در حال بارگذاری ..."
                         layout="fill"
                         width={100}
                         height={100}
@@ -173,9 +181,10 @@ function bazikonan() {
               <Col sm={12} className={styles.videoo}>
                 <Row>
                   <Col sm={2} />
-                  <Link href="/images/i9.jpg">
+                  <Link href="/images/i9.jpg" passHref>
                     <Col className={styles.vidcoo1}>
                       <Image
+                      alt="در حال بارگذاری ..."
                         layout="fill"
                         width={100}
                         height={100}
@@ -185,9 +194,10 @@ function bazikonan() {
                     </Col>
                   </Link>
 
-                  <Link href="/images/i10.jpg">
+                  <Link href="/images/i10.jpg" passHref>
                     <Col className={styles.vidcoo2}>
                       <Image
+                      alt="در حال بارگذاری ..."
                         layout="fill"
                         width={100}
                         height={100}
@@ -204,9 +214,10 @@ function bazikonan() {
               <Col sm={12} className={styles.videoo}>
                 <Row>
                   <Col sm={2} />
-                  <Link href="/images/i11.jpg">
+                  <Link href="/images/i11.jpg" passHref>
                     <Col className={styles.vidcoo1}>
                       <Image
+                      alt="در حال بارگذاری ..."
                         layout="fill"
                         width={100}
                         height={100}
@@ -216,9 +227,10 @@ function bazikonan() {
                     </Col>
                   </Link>
 
-                  <Link href="/images/i12.jpg">
+                  <Link href="/images/i12.jpg" passHref>
                     <Col className={styles.vidcoo2}>
                       <Image
+                      alt="در حال بارگذاری ..."
                         layout="fill"
                         width={100}
                         height={100}
@@ -235,9 +247,10 @@ function bazikonan() {
               <Col sm={12} className={styles.videoo}>
                 <Row>
                   <Col sm={2} />
-                  <Link href="/images/i13.jpg">
+                  <Link href="/images/i13.jpg" passHref>
                     <Col className={styles.vidcoo1}>
                       <Image
+                      alt="در حال بارگذاری ..."
                         layout="fill"
                         width={100}
                         height={100}
@@ -247,9 +260,10 @@ function bazikonan() {
                     </Col>
                   </Link>
 
-                  <Link href="/images/i14.jpg">
+                  <Link href="/images/i14.jpg" passHref>
                     <Col className={styles.vidcoo2}>
                       <Image
+                      alt="در حال بارگذاری ..."
                         layout="fill"
                         width={100}
                         height={100}
@@ -266,9 +280,10 @@ function bazikonan() {
               <Col sm={12} className={styles.videoo}>
                 <Row>
                   <Col sm={2} />
-                  <Link href="/images/i15.jpg">
+                  <Link href="/images/i15.jpg" passHref>
                     <Col className={styles.vidcoo1}>
                       <Image
+                      alt="در حال بارگذاری ..."
                         layout="fill"
                         width={100}
                         height={100}
@@ -278,9 +293,10 @@ function bazikonan() {
                     </Col>
                   </Link>
 
-                  <Link href="/images/i16.jpg">
+                  <Link href="/images/i16.jpg" passHref>
                     <Col className={styles.vidcoo2}>
                       <Image
+                      alt="در حال بارگذاری ..."
                         layout="fill"
                         width={100}
                         height={100}
@@ -297,9 +313,10 @@ function bazikonan() {
               <Col sm={12} className={styles.videoo}>
                 <Row>
                   <Col sm={2} />
-                  <Link href="/images/i17.jpg">
+                  <Link href="/images/i17.jpg" passHref>
                     <Col className={styles.vidcoo1}>
                       <Image
+                      alt="در حال بارگذاری ..."
                         layout="fill"
                         width={100}
                         height={100}
@@ -309,9 +326,10 @@ function bazikonan() {
                     </Col>
                   </Link>
 
-                  <Link href="/images/i18.jpg">
+                  <Link href="/images/i18.jpg" passHref>
                     <Col className={styles.vidcoo2}>
                       <Image
+                      alt="در حال بارگذاری ..."
                         layout="fill"
                         width={100}
                         height={100}
@@ -328,9 +346,10 @@ function bazikonan() {
               <Col sm={12} className={styles.videoo}>
                 <Row>
                   <Col sm={2} />
-                  <Link href="/images/i19.jpg">
+                  <Link href="/images/i19.jpg" passHref>
                     <Col className={styles.vidcoo1}>
                       <Image
+                      alt="در حال بارگذاری ..."
                         layout="fill"
                         width={100}
                         height={100}
@@ -340,9 +359,10 @@ function bazikonan() {
                     </Col>
                   </Link>
 
-                  <Link href="/images/i20.jpg">
+                  <Link href="/images/i20.jpg" passHref>
                     <Col className={styles.vidcoo2}>
                       <Image
+                      alt="در حال بارگذاری ..."
                         layout="fill"
                         width={100}
                         height={100}
@@ -359,9 +379,10 @@ function bazikonan() {
               <Col sm={12} className={styles.videoo}>
                 <Row>
                   <Col sm={2} />
-                  <Link href="/images/i21.jpg">
+                  <Link href="/images/i21.jpg" passHref>
                     <Col className={styles.vidcoo1}>
-                    <Image
+                      <Image
+                      alt="در حال بارگذاری ..."
                         layout="fill"
                         width={100}
                         height={100}
@@ -371,15 +392,17 @@ function bazikonan() {
                     </Col>
                   </Link>
 
-                  <Link href="/images/i22.jpg">
+                  <Link href="/images/i22.jpg" passHref>
                     <Col className={styles.vidcoo2}>
-                    <Image
+                      <Image
+                      alt="در حال بارگذاری ..."
                         layout="fill"
                         width={100}
                         height={100}
                         className={styles.img1}
                         src="/images/i22.jpg"
-                      />                    </Col>
+                      />{" "}
+                    </Col>
                   </Link>
 
                   <Col sm={2} />
@@ -389,26 +412,30 @@ function bazikonan() {
               <Col sm={12} className={styles.videoo}>
                 <Row>
                   <Col sm={2} />
-                  <Link href="/images/i23.jpg">
+                  <Link href="/images/i23.jpg" passHref>
                     <Col className={styles.vidcoo1}>
-                    <Image
+                      <Image
+                      alt="در حال بارگذاری ..."
                         layout="fill"
                         width={100}
                         height={100}
                         className={styles.img1}
                         src="/images/i23.jpg"
-                      />                    </Col>
+                      />{" "}
+                    </Col>
                   </Link>
 
-                  <Link href="/images/i24.jpg">
+                  <Link href="/images/i24.jpg" passHref>
                     <Col className={styles.vidcoo2}>
-                    <Image
+                      <Image
+                      alt="در حال بارگذاری ..."
                         layout="fill"
                         width={100}
                         height={100}
                         className={styles.img1}
                         src="/images/i24.jpg"
-                      />                    </Col>
+                      />{" "}
+                    </Col>
                   </Link>
 
                   <Col sm={2} />
@@ -418,26 +445,30 @@ function bazikonan() {
               <Col sm={12} className={styles.videoo}>
                 <Row>
                   <Col sm={2} />
-                  <Link href="/images/i25.jpg">
+                  <Link href="/images/i25.jpg" passHref>
                     <Col className={styles.vidcoo1}>
-                    <Image
+                      <Image
+                      alt="در حال بارگذاری ..."
                         layout="fill"
                         width={100}
                         height={100}
                         className={styles.img1}
                         src="/images/i25.jpg"
-                      />                    </Col>
+                      />{" "}
+                    </Col>
                   </Link>
 
-                  <Link href="/images/i26.jpg">
+                  <Link href="/images/i26.jpg" passHref>
                     <Col className={styles.vidcoo2}>
-                    <Image
+                      <Image
+                      alt="در حال بارگذاری ..."
                         layout="fill"
                         width={100}
                         height={100}
                         className={styles.img1}
                         src="/images/i26.jpg"
-                      />                    </Col>
+                      />{" "}
+                    </Col>
                   </Link>
 
                   <Col sm={2} />
@@ -447,26 +478,30 @@ function bazikonan() {
               <Col sm={12} className={styles.videoo}>
                 <Row>
                   <Col sm={2} />
-                  <Link href="/images/i27.jpg">
+                  <Link href="/images/i27.jpg" passHref>
                     <Col className={styles.vidcoo1}>
-                    <Image
+                      <Image
+                      alt="در حال بارگذاری ..."
                         layout="fill"
                         width={100}
                         height={100}
                         className={styles.img1}
                         src="/images/i27.jpg"
-                      />                    </Col>
+                      />{" "}
+                    </Col>
                   </Link>
 
-                  <Link href="/images/i28.jpg">
+                  <Link href="/images/i28.jpg" passHref>
                     <Col className={styles.vidcoo2}>
-                    <Image
+                      <Image
+                      alt="در حال بارگذاری ..."
                         layout="fill"
                         width={100}
                         height={100}
                         className={styles.img1}
                         src="/images/i28.jpg"
-                      />                    </Col>
+                      />{" "}
+                    </Col>
                   </Link>
 
                   <Col sm={2} />
@@ -476,26 +511,30 @@ function bazikonan() {
               <Col sm={12} className={styles.videoo}>
                 <Row>
                   <Col sm={2} />
-                  <Link href="/images/i29.jpg">
+                  <Link href="/images/i29.jpg" passHref>
                     <Col className={styles.vidcoo1}>
-                    <Image
+                      <Image
+                      alt="در حال بارگذاری ..."
                         layout="fill"
                         width={100}
                         height={100}
                         className={styles.img1}
                         src="/images/i29.jpg"
-                      />                    </Col>
+                      />{" "}
+                    </Col>
                   </Link>
 
-                  <Link href="/images/i30.jpg">
+                  <Link href="/images/i30.jpg" passHref>
                     <Col className={styles.vidcoo2}>
-                    <Image
+                      <Image
+                      alt="در حال بارگذاری ..."
                         layout="fill"
                         width={100}
                         height={100}
                         className={styles.img1}
                         src="/images/i30.jpg"
-                      />                    </Col>
+                      />{" "}
+                    </Col>
                   </Link>
 
                   <Col sm={2} />
@@ -505,26 +544,30 @@ function bazikonan() {
               <Col sm={12} className={styles.videoo}>
                 <Row>
                   <Col sm={2} />
-                  <Link href="/images/i31.jpg">
+                  <Link href="/images/i31.jpg" passHref>
                     <Col className={styles.vidcoo1}>
-                    <Image
+                      <Image
+                      alt="در حال بارگذاری ..."
                         layout="fill"
                         width={100}
                         height={100}
                         className={styles.img1}
                         src="/images/i31.jpg"
-                      />                    </Col>
+                      />{" "}
+                    </Col>
                   </Link>
 
-                  <Link href="/images/i32.jpg">
+                  <Link href="/images/i32.jpg" passHref>
                     <Col className={styles.vidcoo2}>
-                    <Image
+                      <Image
+                      alt="در حال بارگذاری ..."
                         layout="fill"
                         width={100}
                         height={100}
                         className={styles.img1}
                         src="/images/i32.jpg"
-                      />                     </Col>
+                      />{" "}
+                    </Col>
                   </Link>
 
                   <Col sm={2} />
@@ -534,26 +577,30 @@ function bazikonan() {
               <Col sm={12} className={styles.videoo}>
                 <Row>
                   <Col sm={2} />
-                  <Link href="/images/i33.jpg">
+                  <Link href="/images/i33.jpg" passHref>
                     <Col className={styles.vidcoo1}>
-                    <Image
+                      <Image
+                      alt="در حال بارگذاری ..."
                         layout="fill"
                         width={100}
                         height={100}
                         className={styles.img1}
                         src="/images/i33.jpg"
-                      />                     </Col>
+                      />{" "}
+                    </Col>
                   </Link>
 
-                  <Link href="/images/i34.jpg">
+                  <Link href="/images/i34.jpg" passHref>
                     <Col className={styles.vidcoo2}>
-                    <Image
+                      <Image
+                      alt="در حال بارگذاری ..."
                         layout="fill"
                         width={100}
                         height={100}
                         className={styles.img1}
                         src="/images/i34.jpg"
-                      />                     </Col>
+                      />{" "}
+                    </Col>
                   </Link>
 
                   <Col sm={2} />
@@ -563,26 +610,30 @@ function bazikonan() {
               <Col sm={12} className={styles.videoo}>
                 <Row>
                   <Col sm={2} />
-                  <Link href="/images/i35.jpg">
+                  <Link href="/images/i35.jpg" passHref>
                     <Col className={styles.vidcoo1}>
-                    <Image
+                      <Image
+                      alt="در حال بارگذاری ..."
                         layout="fill"
                         width={100}
                         height={100}
                         className={styles.img1}
                         src="/images/i35.jpg"
-                      />                     </Col>
+                      />{" "}
+                    </Col>
                   </Link>
 
-                  <Link href="/images/i36.jpg">
+                  <Link href="/images/i36.jpg" passHref>
                     <Col className={styles.vidcoo2}>
-                    <Image
+                      <Image
+                      alt="در حال بارگذاری ..."
                         layout="fill"
                         width={100}
                         height={100}
                         className={styles.img1}
                         src="/images/i36.jpg"
-                      />                     </Col>
+                      />{" "}
+                    </Col>
                   </Link>
 
                   <Col sm={2} />
@@ -592,26 +643,30 @@ function bazikonan() {
               <Col sm={12} className={styles.videoo}>
                 <Row>
                   <Col sm={2} />
-                  <Link href="/images/i37.jpg">
+                  <Link href="/images/i37.jpg" passHref>
                     <Col className={styles.vidcoo1}>
-                    <Image
+                      <Image
+                      alt="در حال بارگذاری ..."
                         layout="fill"
                         width={100}
                         height={100}
                         className={styles.img1}
                         src="/images/i37.jpg"
-                      />                     </Col>
+                      />{" "}
+                    </Col>
                   </Link>
 
-                  <Link href="/images/i38.jpg">
+                  <Link href="/images/i38.jpg" passHref>
                     <Col className={styles.vidcoo2}>
-                    <Image
+                      <Image
+                      alt="در حال بارگذاری ..."
                         layout="fill"
                         width={100}
                         height={100}
                         className={styles.img1}
                         src="/images/i38.jpg"
-                      />                     </Col>
+                      />{" "}
+                    </Col>
                   </Link>
 
                   <Col sm={2} />
@@ -621,26 +676,30 @@ function bazikonan() {
               <Col sm={12} className={styles.videoo}>
                 <Row>
                   <Col sm={2} />
-                  <Link href="/images/i39.jpg">
+                  <Link href="/images/i39.jpg" passHref>
                     <Col className={styles.vidcoo1}>
-                    <Image
+                      <Image
+                      alt="در حال بارگذاری ..."
                         layout="fill"
                         width={100}
                         height={100}
                         className={styles.img1}
                         src="/images/i39.jpg"
-                      />                     </Col>
+                      />{" "}
+                    </Col>
                   </Link>
 
-                  <Link href="/images/i40.jpg">
+                  <Link href="/images/i40.jpg" passHref>
                     <Col className={styles.vidcoo2}>
-                    <Image
+                      <Image
+                      alt="در حال بارگذاری ..."
                         layout="fill"
                         width={100}
                         height={100}
                         className={styles.img1}
                         src="/images/i40.jpg"
-                      />                     </Col>
+                      />{" "}
+                    </Col>
                   </Link>
 
                   <Col sm={2} />
@@ -650,26 +709,30 @@ function bazikonan() {
               <Col sm={12} className={styles.videoo}>
                 <Row>
                   <Col sm={2} />
-                  <Link href="/images/i41.jpg">
+                  <Link href="/images/i41.jpg" passHref>
                     <Col className={styles.vidcoo1}>
-                    <Image
+                      <Image
+                      alt="در حال بارگذاری ..."
                         layout="fill"
                         width={100}
                         height={100}
                         className={styles.img1}
                         src="/images/i41.jpg"
-                      />                     </Col>
+                      />{" "}
+                    </Col>
                   </Link>
 
-                  <Link href="/images/i42.jpg">
+                  <Link href="/images/i42.jpg" passHref>
                     <Col className={styles.vidcoo2}>
-                    <Image
+                      <Image
+                      alt="در حال بارگذاری ..."
                         layout="fill"
                         width={100}
                         height={100}
                         className={styles.img1}
                         src="/images/i42.jpg"
-                      />                     </Col>
+                      />{" "}
+                    </Col>
                   </Link>
                   <Col sm={2} />
                 </Row>
@@ -678,26 +741,30 @@ function bazikonan() {
               <Col sm={12} className={styles.videoo}>
                 <Row>
                   <Col sm={2} />
-                  <Link href="/images/i43.jpg">
+                  <Link href="/images/i43.jpg" passHref>
                     <Col className={styles.vidcoo1}>
-                    <Image
+                      <Image
+                      alt="در حال بارگذاری ..."
                         layout="fill"
                         width={100}
                         height={100}
                         className={styles.img1}
                         src="/images/i43.jpg"
-                      />                     </Col>
+                      />{" "}
+                    </Col>
                   </Link>
 
-                  <Link href="/images/i44.jpg">
+                  <Link href="/images/i44.jpg" passHref>
                     <Col className={styles.vidcoo2}>
-                    <Image
+                      <Image
+                      alt="در حال بارگذاری ..."
                         layout="fill"
                         width={100}
                         height={100}
                         className={styles.img1}
                         src="/images/i44.jpg"
-                      />                     </Col>
+                      />{" "}
+                    </Col>
                   </Link>
 
                   <Col sm={2} />
