@@ -46,7 +46,7 @@ function news() {
             </Col>
           </Row>
 
-          <Link href={"/news/khabar1/1"}>
+          <Link href={"/Khabar1"}>
             <Row className={styles.khabar1}>
               <Col sm={6}>
                 <Image className={styles.ikhabar} width={200} height={150} layout="intrinsic" src="/images/i34.jpg" />
