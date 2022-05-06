@@ -2,6 +2,7 @@ import Head from "next/head";
 import { Container , Col,Row } from "react-bootstrap";
 import styles from "../styles/Home.module.css";
 import Navb from "./Navb";
+import Image from "next/image";
 
 const Layout = ({ children }) => {
   return (
@@ -20,14 +21,14 @@ const Layout = ({ children }) => {
         <Container >
           <Row>
             <Col sm={12} >
-              <img src="/images/dolfin.png" width={70}/>
+              <Image layout='intrinsic' src="/images/dolfin.png" height={70} width={70}/>
               <p>باشگاه فرهنگی ورزشی دلفین گربدان</p>
             </Col>
             
             
               
             <Col sm={12} className={styles.abdollah}>
-              این سایت توسط <a href="http://abdollahchelasi.ir/" target={'#'}><span className={styles.abdol}>عبدالله چلاسی <img src="/images/a.jpg" className={styles.imabdol} width={20}/></span></a>ساخته شده است
+              این سایت توسط <a href="http://abdollahchelasi.ir/" target={'#'}><span className={styles.abdol}>عبدالله چلاسی <Image layout='intrinsic' src="/images/a.jpg" className={styles.imabdol} height={20} width={20}/></span></a>ساخته شده است
             </Col>
           </Row>
         </Container>

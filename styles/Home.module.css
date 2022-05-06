@@ -90,13 +90,13 @@ padding-top: 1px;
 .abdollah{
   padding-top: 30px;
   color: white;
-  margin-bottom: 7px;
+  margin-bottom: 11px;
 }
 
 .abdol{
   border-radius: 4px;
   background-image: linear-gradient(to bottom right, rgb(84, 113, 201), rgb(207, 72, 38));
-  padding: 2px;
+  padding: 6px;
   margin: 5px;
 }
 .abdol:hover{
@@ -148,6 +148,7 @@ padding-top: 1px;
  .img1{
    width: 100%;
    height: 100%;
+   border-radius: 5px;
  }
 
 .vidcoo1{
@@ -158,14 +159,15 @@ padding-top: 1px;
   width: 20px;
   margin-right: 2px;
   margin-top: 31px;
+  border-radius: 5px;
   transform: skewY(200deg);
-  border-radius: 2px;
   background-image: linear-gradient(to bottom right, rgb(1, 11, 39), rgb(121, 30, 7));
 }
 .vidcoo1:hover{
   cursor: pointer;
 }
 .vidcoo2{
+  border-radius: 5px;
   animation-name: example;
   animation-duration: 5s;
   animation-iteration-count: 3;
@@ -174,7 +176,6 @@ padding-top: 1px;
   margin-right: 2px;
   margin-top: 31px;
   transform: skewY(160deg);
-  border-radius: 2px;
   background-image: linear-gradient(to bottom right, rgb(8, 33, 104), rgb(121, 30, 7));
 }
 

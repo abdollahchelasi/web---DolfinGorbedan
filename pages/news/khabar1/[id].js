@@ -3,6 +3,7 @@ import { useRouter } from "next/router";
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import styles from "../../../styles/Home.module.css";
+import Image from "next/image";
 
 const khabar1 = (props) => {
   const ruter = useRouter();
@@ -32,7 +33,7 @@ const khabar1 = (props) => {
                 </p>
               </Col>
               <Col sm={12}>
-                <img className={styles.imgkh} src="/images/i34.jpg" />
+              <Image className={styles.imgkh} width={250} height={150} layout="responsive" src="/images/i34.jpg" />
               </Col>
               <Col sm={12}>
                 <p className={styles.pp}>
@@ -89,7 +90,7 @@ const khabar1 = (props) => {
                 </p>
               </Col>
               <Col sm={12}>
-                <img className={styles.imgkh} src="/images/jadval.jpg" />
+              <Image className={styles.imgkh} width={250} height={150} layout="responsive" src="/images/jadval.jpg" />
               </Col>
 
               <Col>
@@ -161,7 +162,7 @@ const khabar1 = (props) => {
               </Col>
 
               <Col sm={12}>
-              <img className={styles.imgkh} src="/images/eft.jpg" />
+              <Image className={styles.imgkh} width={250} height={150} layout="responsive" src="/images/eft.jpg" />
               </Col>
 
               <Col>

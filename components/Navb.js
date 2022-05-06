@@ -10,11 +10,11 @@ const Navb = () => {
     
       <Navbar className={styles.navb}  variant="dark" expand="sm">
         <Container>
-          <img src="/images/dolfin.png" width={50}/>
+          <Image src="/images/dolfin.png" width={60} height={60} layout='intrinsic'/>
           <Navbar.Brand href="#home">
-          <img src='/images/toop.gif' width='30px'/>
+          <Image layout='intrinsic' src='/images/toop.gif' width='30' height='30'/>
             دلفین گربدان
-            <img src='/images/toop.gif' width='30px'/>
+            <Image layout='intrinsic' src='/images/toop.gif' width='30' height='30'/>
             </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">

@@ -3,15 +3,22 @@ import Link from "next/link";
 import { Col, Container, Row } from "react-bootstrap";
 import styles from "../styles/Home.module.css";
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 function bazikonan() {
   return (
     <div>
       <Head>
         <title>بازیکنان دلفین گربدان</title>
-        <link rel='icon' href='/images/dolfin.png' />
-        <meta name="keywords" content="بازیکنان دلفین گربدان , بازیکنان جزیره قشم , عکسهای تیم دلفین گربدان"/>
-        <meta name="description" content="عکسهای بازیکنان باشگاه فرهنگی ورزشی دلفین گربدان"/>
+        <link rel="icon" href="/images/dolfin.png" />
+        <meta
+          name="keywords"
+          content="بازیکنان دلفین گربدان , بازیکنان جزیره قشم , عکسهای تیم دلفین گربدان"
+        />
+        <meta
+          name="description"
+          content="عکسهای بازیکنان باشگاه فرهنگی ورزشی دلفین گربدان"
+        />
       </Head>
       <main>
         <motion.div
@@ -39,634 +46,663 @@ function bazikonan() {
 
               <Col sm={12} className={styles.videoo}>
                 <Row>
-                  <Col sm={2}/>
+                  <Col sm={2} />
 
-                  <Link href="images/i1.jpg">
+                  <Link href="/images/i1.jpg">
                     <Col className={styles.vidcoo1}>
-                      <img
+                      <Image
+                        layout="fill"
+                        width={100}
+                        height={100}
                         className={styles.img1}
-                        src="images/i1.jpg"
+                        src="/images/i1.jpg"
                       />
                     </Col>
                   </Link>
 
-                  <Link href="images/passdolfin.jpg">
+                  <Link href="/images/passdolfin.jpg">
                     <Col className={styles.vidcoo2}>
-                      <img
+                      <Image
+                        layout="fill"
+                        width={100}
+                        height={100}
                         className={styles.img1}
-                        src="images/passdolfin.jpg"
+                        src="/images/passdolfin.jpg"
                       />
                     </Col>
                   </Link>
-                  
-                  <Col sm={2}/>
+
+                  <Col sm={2} />
                 </Row>
               </Col>
-
-
 
               <Col sm={12} className={styles.videoo}>
                 <Row>
-                <Col sm={2}/>
+                  <Col sm={2} />
 
-                  <Link href="images/i3.jpg">
+                  <Link href="/images/i3.jpg">
                     <Col className={styles.vidcoo1}>
-                      <img
+                      <Image
+                        layout="fill"
+                        width={100}
+                        height={100}
                         className={styles.img1}
-                        src="images/i3.jpg"
+                        src="/images/i3.jpg"
                       />
                     </Col>
                   </Link>
 
-                  <Link href="images/i4.jpg">
+                  <Link href="/images/i4.jpg">
                     <Col className={styles.vidcoo2}>
-                      <img
+                      <Image
+                        layout="fill"
+                        width={100}
+                        height={100}
                         className={styles.img1}
-                        src="images/i4.jpg"
+                        src="/images/i4.jpg"
                       />
                     </Col>
                   </Link>
 
-                  <Col sm={2}/>
+                  <Col sm={2} />
                 </Row>
               </Col>
-
 
               <Col sm={12} className={styles.videoo}>
                 <Row>
-                <Col sm={2}/>
-                  <Link href="images/i5.jpg">
+                  <Col sm={2} />
+                  <Link href="/images/i5.jpg">
                     <Col className={styles.vidcoo1}>
-                      <img
+                      <Image
+                        layout="fill"
+                        width={100}
+                        height={100}
                         className={styles.img1}
-                        src="images/i5.jpg"
+                        src="/images/i5.jpg"
                       />
                     </Col>
                   </Link>
 
-                  <Link href="images/i6.jpg">
+                  <Link href="/images/i6.jpg">
                     <Col className={styles.vidcoo2}>
-                      <img
+                      <Image
+                        layout="fill"
+                        width={100}
+                        height={100}
                         className={styles.img1}
-                        src="images/i6.jpg"
+                        src="/images/i6.jpg"
                       />
                     </Col>
                   </Link>
 
-                  <Col sm={2}/>
+                  <Col sm={2} />
                 </Row>
               </Col>
-
 
               <Col sm={12} className={styles.videoo}>
                 <Row>
-
-                <Col sm={2}/>
-                  <Link href="images/i7.jpg">
+                  <Col sm={2} />
+                  <Link href="/images/i7.jpg">
                     <Col className={styles.vidcoo1}>
-                      <img
+                      <Image
+                        layout="fill"
+                        width={100}
+                        height={100}
                         className={styles.img1}
-                        src="images/i7.jpg"
+                        src="/images/i7.jpg"
                       />
                     </Col>
                   </Link>
 
-                  <Link href="images/i8.jpg">
+                  <Link href="/images/i8.jpg">
                     <Col className={styles.vidcoo2}>
-                      <img
+                      <Image
+                        layout="fill"
+                        width={100}
+                        height={100}
                         className={styles.img1}
-                        src="images/i8.jpg"
+                        src="/images/i8.jpg"
                       />
                     </Col>
                   </Link>
 
-                  <Col sm={2}/>
+                  <Col sm={2} />
                 </Row>
               </Col>
-
-
 
               <Col sm={12} className={styles.videoo}>
                 <Row>
-
-                <Col sm={2}/>
-                  <Link href="images/i9.jpg">
+                  <Col sm={2} />
+                  <Link href="/images/i9.jpg">
                     <Col className={styles.vidcoo1}>
-                      <img
+                      <Image
+                        layout="fill"
+                        width={100}
+                        height={100}
                         className={styles.img1}
-                        src="images/i9.jpg"
+                        src="/images/i9.jpg"
                       />
                     </Col>
                   </Link>
 
-                  <Link href="images/i10.jpg">
+                  <Link href="/images/i10.jpg">
                     <Col className={styles.vidcoo2}>
-                      <img
+                      <Image
+                        layout="fill"
+                        width={100}
+                        height={100}
                         className={styles.img1}
-                        src="images/i10.jpg"
+                        src="/images/i10.jpg"
                       />
                     </Col>
                   </Link>
 
-                  <Col sm={2}/>
+                  <Col sm={2} />
                 </Row>
               </Col>
-
-
-
 
               <Col sm={12} className={styles.videoo}>
                 <Row>
-
-                <Col sm={2}/>
-                  <Link href="images/i11.jpg">
+                  <Col sm={2} />
+                  <Link href="/images/i11.jpg">
                     <Col className={styles.vidcoo1}>
-                      <img
+                      <Image
+                        layout="fill"
+                        width={100}
+                        height={100}
                         className={styles.img1}
-                        src="images/i11.jpg"
+                        src="/images/i11.jpg"
                       />
                     </Col>
                   </Link>
 
-                  <Link href="images/i12.jpg">
+                  <Link href="/images/i12.jpg">
                     <Col className={styles.vidcoo2}>
-                      <img
+                      <Image
+                        layout="fill"
+                        width={100}
+                        height={100}
                         className={styles.img1}
-                        src="images/i12.jpg"
+                        src="/images/i12.jpg"
                       />
                     </Col>
                   </Link>
 
-                  <Col sm={2}/>
+                  <Col sm={2} />
                 </Row>
               </Col>
-
 
               <Col sm={12} className={styles.videoo}>
                 <Row>
-
-                <Col sm={2}/>
-                  <Link href="images/i13.jpg">
+                  <Col sm={2} />
+                  <Link href="/images/i13.jpg">
                     <Col className={styles.vidcoo1}>
-                      <img
+                      <Image
+                        layout="fill"
+                        width={100}
+                        height={100}
                         className={styles.img1}
-                        src="images/i13.jpg"
+                        src="/images/i13.jpg"
                       />
                     </Col>
                   </Link>
 
-                  <Link href="images/i14.jpg">
+                  <Link href="/images/i14.jpg">
                     <Col className={styles.vidcoo2}>
-                      <img
+                      <Image
+                        layout="fill"
+                        width={100}
+                        height={100}
                         className={styles.img1}
-                        src="images/i14.jpg"
+                        src="/images/i14.jpg"
                       />
                     </Col>
                   </Link>
 
-                  <Col sm={2}/>
+                  <Col sm={2} />
                 </Row>
               </Col>
-
-
 
               <Col sm={12} className={styles.videoo}>
                 <Row>
-
-                <Col sm={2}/>
-                  <Link href="images/i15.jpg">
+                  <Col sm={2} />
+                  <Link href="/images/i15.jpg">
                     <Col className={styles.vidcoo1}>
-                      <img
+                      <Image
+                        layout="fill"
+                        width={100}
+                        height={100}
                         className={styles.img1}
-                        src="images/i15.jpg"
+                        src="/images/i15.jpg"
                       />
                     </Col>
                   </Link>
 
-                  <Link href="images/i16.jpg">
+                  <Link href="/images/i16.jpg">
                     <Col className={styles.vidcoo2}>
-                      <img
+                      <Image
+                        layout="fill"
+                        width={100}
+                        height={100}
                         className={styles.img1}
-                        src="images/i16.jpg"
+                        src="/images/i16.jpg"
                       />
                     </Col>
                   </Link>
 
-                  <Col sm={2}/>
+                  <Col sm={2} />
                 </Row>
               </Col>
-
-
-
 
               <Col sm={12} className={styles.videoo}>
                 <Row>
-
-                <Col sm={2}/>
-                  <Link href="images/i17.jpg">
+                  <Col sm={2} />
+                  <Link href="/images/i17.jpg">
                     <Col className={styles.vidcoo1}>
-                      <img
+                      <Image
+                        layout="fill"
+                        width={100}
+                        height={100}
                         className={styles.img1}
-                        src="images/i17.jpg"
+                        src="/images/i17.jpg"
                       />
                     </Col>
                   </Link>
 
-                  <Link href="images/i18.jpg">
+                  <Link href="/images/i18.jpg">
                     <Col className={styles.vidcoo2}>
-                      <img
+                      <Image
+                        layout="fill"
+                        width={100}
+                        height={100}
                         className={styles.img1}
-                        src="images/i18.jpg"
+                        src="/images/i18.jpg"
                       />
                     </Col>
                   </Link>
 
-                  <Col sm={2}/>
+                  <Col sm={2} />
                 </Row>
               </Col>
-
 
               <Col sm={12} className={styles.videoo}>
                 <Row>
-
-                <Col sm={2}/>
-                  <Link href="images/i19.jpg">
+                  <Col sm={2} />
+                  <Link href="/images/i19.jpg">
                     <Col className={styles.vidcoo1}>
-                      <img
+                      <Image
+                        layout="fill"
+                        width={100}
+                        height={100}
                         className={styles.img1}
-                        src="images/i19.jpg"
+                        src="/images/i19.jpg"
                       />
                     </Col>
                   </Link>
 
-                  <Link href="images/i20.jpg">
+                  <Link href="/images/i20.jpg">
                     <Col className={styles.vidcoo2}>
-                      <img
+                      <Image
+                        layout="fill"
+                        width={100}
+                        height={100}
                         className={styles.img1}
-                        src="images/i20.jpg"
+                        src="/images/i20.jpg"
                       />
                     </Col>
                   </Link>
 
-                  <Col sm={2}/>
+                  <Col sm={2} />
                 </Row>
               </Col>
-
-
 
               <Col sm={12} className={styles.videoo}>
                 <Row>
-
-                <Col sm={2}/>
-                  <Link href="images/i21.jpg">
+                  <Col sm={2} />
+                  <Link href="/images/i21.jpg">
                     <Col className={styles.vidcoo1}>
-                      <img
+                    <Image
+                        layout="fill"
+                        width={100}
+                        height={100}
                         className={styles.img1}
-                        src="images/i21.jpg"
+                        src="/images/i21.jpg"
                       />
                     </Col>
                   </Link>
 
-                  <Link href="images/i22.jpg">
+                  <Link href="/images/i22.jpg">
                     <Col className={styles.vidcoo2}>
-                      <img
+                    <Image
+                        layout="fill"
+                        width={100}
+                        height={100}
                         className={styles.img1}
-                        src="images/i22.jpg"
-                      />
-                    </Col>
+                        src="/images/i22.jpg"
+                      />                    </Col>
                   </Link>
 
-                  <Col sm={2}/>
+                  <Col sm={2} />
                 </Row>
               </Col>
-
-
-
-
 
               <Col sm={12} className={styles.videoo}>
                 <Row>
-
-                <Col sm={2}/>
-                  <Link href="images/i23.jpg">
+                  <Col sm={2} />
+                  <Link href="/images/i23.jpg">
                     <Col className={styles.vidcoo1}>
-                      <img
+                    <Image
+                        layout="fill"
+                        width={100}
+                        height={100}
                         className={styles.img1}
-                        src="images/i23.jpg"
-                      />
-                    </Col>
+                        src="/images/i23.jpg"
+                      />                    </Col>
                   </Link>
 
-                  <Link href="images/i24.jpg">
+                  <Link href="/images/i24.jpg">
                     <Col className={styles.vidcoo2}>
-                      <img
+                    <Image
+                        layout="fill"
+                        width={100}
+                        height={100}
                         className={styles.img1}
-                        src="images/i24.jpg"
-                      />
-                    </Col>
+                        src="/images/i24.jpg"
+                      />                    </Col>
                   </Link>
 
-                  <Col sm={2}/>
+                  <Col sm={2} />
                 </Row>
               </Col>
-
 
               <Col sm={12} className={styles.videoo}>
                 <Row>
-
-                <Col sm={2}/>
-                  <Link href="images/i25.jpg">
+                  <Col sm={2} />
+                  <Link href="/images/i25.jpg">
                     <Col className={styles.vidcoo1}>
-                      <img
+                    <Image
+                        layout="fill"
+                        width={100}
+                        height={100}
                         className={styles.img1}
-                        src="images/i25.jpg"
-                      />
-                    </Col>
+                        src="/images/i25.jpg"
+                      />                    </Col>
                   </Link>
 
-                  <Link href="images/i26.jpg">
+                  <Link href="/images/i26.jpg">
                     <Col className={styles.vidcoo2}>
-                      <img
+                    <Image
+                        layout="fill"
+                        width={100}
+                        height={100}
                         className={styles.img1}
-                        src="images/i26.jpg"
-                      />
-                    </Col>
+                        src="/images/i26.jpg"
+                      />                    </Col>
                   </Link>
 
-                  <Col sm={2}/>
+                  <Col sm={2} />
                 </Row>
               </Col>
-
-
 
               <Col sm={12} className={styles.videoo}>
                 <Row>
-
-                <Col sm={2}/>
-                  <Link href="images/i27.jpg">
+                  <Col sm={2} />
+                  <Link href="/images/i27.jpg">
                     <Col className={styles.vidcoo1}>
-                      <img
+                    <Image
+                        layout="fill"
+                        width={100}
+                        height={100}
                         className={styles.img1}
-                        src="images/i27.jpg"
-                      />
-                    </Col>
+                        src="/images/i27.jpg"
+                      />                    </Col>
                   </Link>
 
-                  <Link href="images/i28.jpg">
+                  <Link href="/images/i28.jpg">
                     <Col className={styles.vidcoo2}>
-                      <img
+                    <Image
+                        layout="fill"
+                        width={100}
+                        height={100}
                         className={styles.img1}
-                        src="images/i28.jpg"
-                      />
-                    </Col>
+                        src="/images/i28.jpg"
+                      />                    </Col>
                   </Link>
 
-                  <Col sm={2}/>
+                  <Col sm={2} />
                 </Row>
               </Col>
-
-
 
               <Col sm={12} className={styles.videoo}>
                 <Row>
-
-                <Col sm={2}/>
-                  <Link href="images/i29.jpg">
+                  <Col sm={2} />
+                  <Link href="/images/i29.jpg">
                     <Col className={styles.vidcoo1}>
-                      <img
+                    <Image
+                        layout="fill"
+                        width={100}
+                        height={100}
                         className={styles.img1}
-                        src="images/i29.jpg"
-                      />
-                    </Col>
+                        src="/images/i29.jpg"
+                      />                    </Col>
                   </Link>
 
-                  <Link href="images/i30.jpg">
+                  <Link href="/images/i30.jpg">
                     <Col className={styles.vidcoo2}>
-                      <img
+                    <Image
+                        layout="fill"
+                        width={100}
+                        height={100}
                         className={styles.img1}
-                        src="images/i30.jpg"
-                      />
-                    </Col>
+                        src="/images/i30.jpg"
+                      />                    </Col>
                   </Link>
 
-                  <Col sm={2}/>
+                  <Col sm={2} />
                 </Row>
               </Col>
-
 
               <Col sm={12} className={styles.videoo}>
                 <Row>
-
-                <Col sm={2}/>
-                  <Link href="images/i31.jpg">
+                  <Col sm={2} />
+                  <Link href="/images/i31.jpg">
                     <Col className={styles.vidcoo1}>
-                      <img
+                    <Image
+                        layout="fill"
+                        width={100}
+                        height={100}
                         className={styles.img1}
-                        src="images/i31.jpg"
-                      />
-                    </Col>
+                        src="/images/i31.jpg"
+                      />                    </Col>
                   </Link>
 
-                  <Link href="images/i32.jpg">
+                  <Link href="/images/i32.jpg">
                     <Col className={styles.vidcoo2}>
-                      <img
+                    <Image
+                        layout="fill"
+                        width={100}
+                        height={100}
                         className={styles.img1}
-                        src="images/i32.jpg"
-                      />
-                    </Col>
+                        src="/images/i32.jpg"
+                      />                     </Col>
                   </Link>
 
-                  <Col sm={2}/>
+                  <Col sm={2} />
                 </Row>
               </Col>
-
 
               <Col sm={12} className={styles.videoo}>
                 <Row>
-
-                <Col sm={2}/>
-                  <Link href="images/i33.jpg">
+                  <Col sm={2} />
+                  <Link href="/images/i33.jpg">
                     <Col className={styles.vidcoo1}>
-                      <img
+                    <Image
+                        layout="fill"
+                        width={100}
+                        height={100}
                         className={styles.img1}
-                        src="images/i33.jpg"
-                      />
-                    </Col>
+                        src="/images/i33.jpg"
+                      />                     </Col>
                   </Link>
 
-                  <Link href="images/i34.jpg">
+                  <Link href="/images/i34.jpg">
                     <Col className={styles.vidcoo2}>
-                      <img
+                    <Image
+                        layout="fill"
+                        width={100}
+                        height={100}
                         className={styles.img1}
-                        src="images/i34.jpg"
-                      />
-                    </Col>
+                        src="/images/i34.jpg"
+                      />                     </Col>
                   </Link>
 
-                  <Col sm={2}/>
+                  <Col sm={2} />
                 </Row>
               </Col>
-
-
 
               <Col sm={12} className={styles.videoo}>
                 <Row>
-
-                <Col sm={2}/>
-                  <Link href="images/i35.jpg">
+                  <Col sm={2} />
+                  <Link href="/images/i35.jpg">
                     <Col className={styles.vidcoo1}>
-                      <img
+                    <Image
+                        layout="fill"
+                        width={100}
+                        height={100}
                         className={styles.img1}
-                        src="images/i35.jpg"
-                      />
-                    </Col>
+                        src="/images/i35.jpg"
+                      />                     </Col>
                   </Link>
 
-                  <Link href="images/i36.jpg">
+                  <Link href="/images/i36.jpg">
                     <Col className={styles.vidcoo2}>
-                      <img
+                    <Image
+                        layout="fill"
+                        width={100}
+                        height={100}
                         className={styles.img1}
-                        src="images/i36.jpg"
-                      />
-                    </Col>
+                        src="/images/i36.jpg"
+                      />                     </Col>
                   </Link>
 
-                  <Col sm={2}/>
+                  <Col sm={2} />
                 </Row>
               </Col>
-
-
 
               <Col sm={12} className={styles.videoo}>
                 <Row>
-
-                <Col sm={2}/>
-                  <Link href="images/i37.jpg">
+                  <Col sm={2} />
+                  <Link href="/images/i37.jpg">
                     <Col className={styles.vidcoo1}>
-                      <img
+                    <Image
+                        layout="fill"
+                        width={100}
+                        height={100}
                         className={styles.img1}
-                        src="images/i37.jpg"
-                      />
-                    </Col>
+                        src="/images/i37.jpg"
+                      />                     </Col>
                   </Link>
 
-                  <Link href="images/i38.jpg">
+                  <Link href="/images/i38.jpg">
                     <Col className={styles.vidcoo2}>
-                      <img
+                    <Image
+                        layout="fill"
+                        width={100}
+                        height={100}
                         className={styles.img1}
-                        src="images/i38.jpg"
-                      />
-                    </Col>
+                        src="/images/i38.jpg"
+                      />                     </Col>
                   </Link>
 
-                  <Col sm={2}/>
+                  <Col sm={2} />
                 </Row>
               </Col>
-
-
 
               <Col sm={12} className={styles.videoo}>
                 <Row>
-                <Col sm={2}/>
-                  <Link href="images/i39.jpg">
+                  <Col sm={2} />
+                  <Link href="/images/i39.jpg">
                     <Col className={styles.vidcoo1}>
-                      <img
+                    <Image
+                        layout="fill"
+                        width={100}
+                        height={100}
                         className={styles.img1}
-                        src="images/i39.jpg"
-                      />
-                    </Col>
+                        src="/images/i39.jpg"
+                      />                     </Col>
                   </Link>
 
-                  <Link href="images/i40.jpg">
+                  <Link href="/images/i40.jpg">
                     <Col className={styles.vidcoo2}>
-                      <img
+                    <Image
+                        layout="fill"
+                        width={100}
+                        height={100}
                         className={styles.img1}
-                        src="images/i40.jpg"
-                      />
-                    </Col>
+                        src="/images/i40.jpg"
+                      />                     </Col>
                   </Link>
 
-                  <Col sm={2}/>
+                  <Col sm={2} />
                 </Row>
               </Col>
-
-
 
               <Col sm={12} className={styles.videoo}>
                 <Row>
-                <Col sm={2}/>
-                  <Link href="images/i41.jpg">
+                  <Col sm={2} />
+                  <Link href="/images/i41.jpg">
                     <Col className={styles.vidcoo1}>
-                      <img
+                    <Image
+                        layout="fill"
+                        width={100}
+                        height={100}
                         className={styles.img1}
-                        src="images/i41.jpg"
-                      />
-                    </Col>
+                        src="/images/i41.jpg"
+                      />                     </Col>
                   </Link>
 
-                  <Link href="images/i42.jpg">
+                  <Link href="/images/i42.jpg">
                     <Col className={styles.vidcoo2}>
-                      <img
+                    <Image
+                        layout="fill"
+                        width={100}
+                        height={100}
                         className={styles.img1}
-                        src="images/i42.jpg"
-                      />
-                    </Col>
+                        src="/images/i42.jpg"
+                      />                     </Col>
                   </Link>
-                  <Col sm={2}/>
+                  <Col sm={2} />
                 </Row>
               </Col>
-
-
 
               <Col sm={12} className={styles.videoo}>
                 <Row>
-                <Col sm={2}/>
-                  <Link href="images/i43.jpg">
+                  <Col sm={2} />
+                  <Link href="/images/i43.jpg">
                     <Col className={styles.vidcoo1}>
-                      <img
+                    <Image
+                        layout="fill"
+                        width={100}
+                        height={100}
                         className={styles.img1}
-                        src="images/i43.jpg"
-                      />
-                    </Col>
+                        src="/images/i43.jpg"
+                      />                     </Col>
                   </Link>
 
-                  <Link href="images/i44.jpg">
+                  <Link href="/images/i44.jpg">
                     <Col className={styles.vidcoo2}>
-                      <img
+                    <Image
+                        layout="fill"
+                        width={100}
+                        height={100}
                         className={styles.img1}
-                        src="images/i44.jpg"
-                      />
-                    </Col>
+                        src="/images/i44.jpg"
+                      />                     </Col>
                   </Link>
 
-                  <Col sm={2}/>
+                  <Col sm={2} />
                 </Row>
               </Col>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
             </Row>
           </Container>
         </motion.div>

@@ -3,6 +3,8 @@ import Link from "next/link";
 import { Container, Col, Row } from "react-bootstrap";
 import styles from "../styles/Home.module.css";
 import Head from "next/head";
+import Image from "next/image";
+
 function news() {
   return (
     <div>
@@ -47,7 +49,7 @@ function news() {
           <Link href={"/news/khabar1/1"}>
             <Row className={styles.khabar1}>
               <Col sm={6}>
-                <img className={styles.ikhabar} src="/images/i34.jpg" />
+                <Image className={styles.ikhabar} width={200} height={150} layout="intrinsic" src="/images/i34.jpg" />
               </Col>
               <Col sm={4} className={styles.pkhabar}>
                 <p> همه نگاه‌ها به دلفین گربدان , لیگ 2 در اوج حساسیت </p>
@@ -65,7 +67,7 @@ function news() {
           <Link href={"/news/khabar1/2"}>
             <Row className={styles.khabar1}>
               <Col sm={6}>
-                <img className={styles.ikhabar} src="/images/i39.jpg" />
+              <Image className={styles.ikhabar} width={200} height={150} layout="intrinsic" src="/images/i39.jpg" />
               </Col>
               <Col sm={4} className={styles.pkhabar}>
                 <p> برد پرگل دلفین گربدان مقابل قایقسازی رمچاه </p>
@@ -83,7 +85,7 @@ function news() {
           <Link href={"/news/khabar1/3"}>
             <Row className={styles.khabar1}>
               <Col sm={6}>
-                <img className={styles.ikhabar} src="/images/eft.jpg" />
+              <Image className={styles.ikhabar} width={200} height={150} layout="intrinsic" src="/images/eft.jpg" />
               </Col>
               <Col sm={4} className={styles.pkhabar}>
                 <p> افتتاح و بهره برداری زمین چمن مصنوعی دلفین روستای گربدان قشم </p>
