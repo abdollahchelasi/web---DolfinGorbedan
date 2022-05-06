@@ -1,4 +1,3 @@
-import Head from "next/head";
 import { Container , Col,Row } from "react-bootstrap";
 import styles from "../styles/Home.module.css";
 import Navb from "./Navb";
@@ -28,7 +27,7 @@ const Layout = ({ children }) => {
             
               
             <Col sm={12} className={styles.abdollah}>
-              این سایت توسط <a href="http://abdollahchelasi.ir/" target={'#'}><span className={styles.abdol}>عبدالله چلاسی <Image alt="در حال بارگذاری ..." layout='intrinsic' src="/images/a.jpg" className={styles.imabdol} height={20} width={20}/></span></a>ساخته شده است
+              این سایت توسط <a href="http://abdollahchelasi.ir/" target={'#'}><span className={styles.abdol}>عبدالله چلاسی <Image alt="در حال بارگذاری ..." layout='intrinsic' src="/images/a.jpg" className={styles.imabdol} height={20} width={20} passHref/></span></a>ساخته شده است
             </Col>
           </Row>
         </Container>

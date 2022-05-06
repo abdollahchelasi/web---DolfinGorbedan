@@ -757,6 +757,7 @@ function bazikonan() {
                   <Link href="/images/i44.jpg" passHref>
                     <Col className={styles.vidcoo2}>
                       <Image
+                      
                       alt="در حال بارگذاری ..."
                         layout="fill"
                         width={100}

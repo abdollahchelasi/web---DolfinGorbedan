@@ -15,7 +15,7 @@ function news() {
           name="description"
           content="آخرین خبرهای ورزشی باشگاه دلفین گربدان , خبر های لحظه به لحظه با دلفین گربدان"
         />
-        <link rel="icon" href="images/dolfin.png" />
+        <link rel="icon" href="images/dolfin.png"/>
         <meta
           name="keywords"
           content="خبرهای فوتبال دلفین گربدان , خبرهای ورزشی قشم, خبرهای ورزشی تیم دلفین گربدان  , خبرهای باشگاه گربدان"
