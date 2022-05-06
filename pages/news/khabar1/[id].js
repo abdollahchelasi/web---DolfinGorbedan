@@ -11,6 +11,12 @@ const khabar1 = (props) => {
     <div>
       {ruter.query.id == 1 ? (
         <div>
+          <Head>
+        <title>خبر ورزشی - همه نگاه ها به دلفین</title>
+        <link rel='icon' href='/images/dolfin.png' />
+        <meta name="keywords" content="همه نگاه ها به دلفین گربدان , خبر ورزشی قشم , آخرین خبر قشم"/>
+        <meta name="description" content=" همه نگاه‌ها به دلفین گربدان, لیگ 2 در اوج حساسیت "/>
+      </Head>
           <Container>
             <Row>
               <Col sm={12} className={styles.news1}>
@@ -102,6 +108,12 @@ const khabar1 = (props) => {
 
       {ruter.query.id == 2 ? (
         <div>
+           <Head>
+        <title>خبر ورزشی -  برد پرگل دلفین گربدان مقابل قایقسازی رمچاه </title>
+        <link rel='icon' href='/images/dolfin.png' />
+        <meta name="keywords" content="دلفین گربدان مقابل قایقسازی رمچاه , خبر ورزشی مسابقات قشم , اخبار قشم"/>
+        <meta name="description" content=" هفته پایانی رقابتهای لیگ دو امروز در حالی آغاز شد که در تک بازی امروز دلفین گربدان توانست قایقسازی رمچاه را گلباران کند. در این دیدار که برای دو تیم کاملأ تشریفاتی بود، دلفین گربدان توانست با گلهای یعقوب محمدی با نتیجه 5 بر 1 از سد قایقسازی رمچاه بگذرد تا با 11 امتیاز به کار خود در این فصل پایان دهد. "/>
+      </Head>
           <Container>
             <Row>
               <Col sm={12} className={styles.news1}>
@@ -136,6 +148,12 @@ const khabar1 = (props) => {
 
       {ruter.query.id == 3 ? (
         <div>
+          <Head>
+        <title>خبر ورزشی - افتتاح زمین چمن دلفین گربدان</title>
+        <link rel='icon' href='/images/dolfin.png' />
+        <meta name="keywords" content="  افتتاح زمین چمن دلفین گربدان , خبر ورزشی افتتاح زمین چمن قشم , اخبار قشم"/>
+        <meta name="description" content="افتتاح و بهره برداری زمین چمن مصنوعی دلفین روستای گربدان قشم "/>
+      </Head>
           <Container>
             <Row>
               <Col sm={12} className={styles.news1}>
