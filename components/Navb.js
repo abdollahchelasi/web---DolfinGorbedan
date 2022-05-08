@@ -2,46 +2,45 @@ import { Navbar, Nav, Container } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import styles from "../styles/Home.module.css";
 import Link from "next/link";
-import Image from "next/image";
 
 const Navb = () => {
   return (
     <>
     
-      <Navbar className={styles.navb}  variant="dark" expand="sm">
+      <Navbar className={styles.navb} fixed="top" variant="dark" expand="sm">
         <Container>
-          <Image alt="در حال بارگذاری ..." src="/images/dolfin.png" width={60} height={60} layout='intrinsic'/>
+          <img src="/images/dolfin.png" width={60} height={60}/>
           <Navbar.Brand href="#home">
-          <Image alt="در حال بارگذاری ..." layout='intrinsic' src='/images/toop.gif' width='30' height='30'/>
+          <img src='/images/toop.gif' width='30' height='30'/>
             دلفین گربدان
-            <Image alt="در حال بارگذاری ..." layout='intrinsic' src='/images/toop.gif' width='30' height='30'/>
+            <img  src='/images/toop.gif' width='30' height='30'/>
             </Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Toggle aria-controls="basic-navbar-nav" id={styles.control} />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
               <Nav.Link className={styles.link}>
                 <Link href="/" passHref>
-                  <p>صفحه اصلی</p>                  
+                  <p className={styles.linkp}>صفحه اصلی</p>                  
                 </Link>
               </Nav.Link>
 
               <Nav.Link className={styles.link}>
-                <Link href="/news" passHref>
+                <Link  href="/news" passHref>
                   
-                   <p> خبر ها</p>
+                   <p className={styles.linkp}> خبر ها</p>
                   
                 </Link>
               </Nav.Link>
               
               <Nav.Link className={styles.link} >
                 <Link href="/bazikonan" passHref>
-                    <p>بازیکنان</p>
+                    <p className={styles.linkp}>بازیکنان</p>
                 </Link>
               </Nav.Link>
 
               <Nav.Link className={styles.link}  >
                 <Link href="/video" passHref>
-                    <p>ویدیوها</p>
+                    <p className={styles.linkp}>ویدیوها</p>
                 </Link>
               </Nav.Link>
 

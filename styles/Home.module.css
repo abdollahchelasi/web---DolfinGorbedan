@@ -21,6 +21,7 @@ padding-top: 1px;
 
 
 }
+
 .hom1{
   height: 250px;
   box-shadow: rgb(36, 37, 37) 2px 6px 7px;
@@ -40,6 +41,16 @@ padding-top: 1px;
   text-align: center;
 }
 
+#control:hover{
+  background-image: linear-gradient(to bottom right, rgb(255, 56, 56), rgb(77, 42, 255));
+}
+#control{
+  box-shadow: rgb(70, 68, 61) 1px 1px 4px;
+  border-color: aliceblue;
+  background-image: linear-gradient(to bottom right, rgb(100, 0, 0), rgb(19, 1, 104));
+}
+
+
 
 
 .hom2{
@@ -54,7 +65,7 @@ padding-top: 1px;
   animation-iteration-count: 3;
   width: 100%;
   box-shadow: rgb(17, 17, 17) 1px 1px 6px;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
   background-image: linear-gradient(to bottom right, rgb(10, 73, 245), rgb(95, 55, 45));
 }
 
@@ -70,6 +81,7 @@ padding-top: 1px;
 
 
 .link{
+  
   background-image: linear-gradient(to bottom right, rgb(126, 4, 34), rgb(3, 49, 109));
   text-decoration:none;
   padding: 2px;
@@ -77,13 +89,16 @@ padding-top: 1px;
   margin-right: 4px;
   border-radius: 4px;
   text-align: center;
-  
 }
 .link:hover{
-  box-shadow: rgb(143, 139, 127) 1px 1px 4px 1px;
+  
+  box-shadow: rgb(109, 109, 110) 1px 1px 4px 1px;
   background-image: linear-gradient(to bottom right, rgb(132, 118, 255), rgb(228, 130, 130));
 }
-
+.linkp{
+  color: aliceblue;
+  
+}
 
 
 
@@ -98,6 +113,7 @@ padding-top: 1px;
   background-image: linear-gradient(to bottom right, rgb(84, 113, 201), rgb(207, 72, 38));
   padding: 6px;
   margin: 5px;
+  text-decoration:none;
 }
 .abdol:hover{
   box-shadow: cornsilk 1px 1px 7px;
@@ -127,6 +143,7 @@ padding-top: 1px;
   background-image: linear-gradient(to bottom right, rgb(8, 33, 104), rgb(121, 30, 7));
 
 }
+
 
 /* Bazikonan */
 

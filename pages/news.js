@@ -3,7 +3,6 @@ import Link from "next/link";
 import { Container, Col, Row } from "react-bootstrap";
 import styles from "../styles/Home.module.css";
 import Head from "next/head";
-import Image from "next/image";
 
 function news() {
   return (
@@ -40,6 +39,13 @@ function news() {
         }}
       >
         <Container>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
           <Row>
             <Col sm={12} className={styles.titlevid}>
               خبر های ورزشی
@@ -49,7 +55,7 @@ function news() {
           <Link href={"/news/khabar1"} passHref>
             <Row className={styles.khabar1}>
               <Col sm={6}>
-                <Image alt="در حال بارگذاری ..." className={styles.ikhabar} width={200} height={150} layout="intrinsic" src="/images/i34.jpg" />
+                <img className={styles.ikhabar} width={200} height={150} src="/images/i34.jpg" />
               </Col>
               <Col sm={4} className={styles.pkhabar}>
                 <p> همه نگاه‌ها به دلفین گربدان , لیگ 2 در اوج حساسیت </p>
@@ -67,7 +73,7 @@ function news() {
           <Link href={"/news/khabar2"} passHref>
             <Row className={styles.khabar1}>
               <Col sm={6}>
-              <Image alt="در حال بارگذاری ..." className={styles.ikhabar} width={200} height={150} layout="intrinsic" src="/images/i39.jpg" />
+              <img  className={styles.ikhabar} width={200} height={150} src="/images/i39.jpg" />
               </Col>
               <Col sm={4} className={styles.pkhabar}>
                 <p> برد پرگل دلفین گربدان مقابل قایقسازی رمچاه </p>
@@ -85,7 +91,7 @@ function news() {
           <Link href={"/news/khabar3"} passHref>
             <Row className={styles.khabar1}>
               <Col sm={6}>
-              <Image alt="در حال بارگذاری ..." className={styles.ikhabar} width={200} height={150} layout="intrinsic" src="/images/eft.jpg" />
+              <img  className={styles.ikhabar} width={200} height={150} src="/images/eft.jpg" />
               </Col>
               <Col sm={4} className={styles.pkhabar}>
                 <p> افتتاح و بهره برداری زمین چمن مصنوعی دلفین روستای گربدان قشم </p>

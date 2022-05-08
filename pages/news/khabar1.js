@@ -1,6 +1,5 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import Image from "next/image";
 import Head from "next/head";
 import styles from '../../styles/Home.module.css'
 
@@ -37,12 +36,10 @@ const khabar1 = () => {
             </p>
           </Col>
           <Col sm={12}>
-            <Image
+            <img
               className={styles.imgkh}
               width={250}
               height={150}
-              alt="در حال بارگذاری ..."
-              layout="responsive"
               src="/images/i34.jpg"
             />
           </Col>
@@ -98,12 +95,10 @@ const khabar1 = () => {
             </p>
           </Col>
           <Col sm={12}>
-            <Image
+            <img
               className={styles.imgkh}
               width={250}
               height={150}
-              alt="در حال بارگذاری ..."
-              layout="responsive"
               src="/images/jadval.jpg"
             />
           </Col>

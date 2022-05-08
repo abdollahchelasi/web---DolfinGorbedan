@@ -37,7 +37,15 @@ export default function Home() {
 
         
         <Container fluid className={styles.cont}>
-          <Row>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+          <Row >
+            
             <Col className={styles.hom1} sm={6}>
               <Col className={styles.hom11} md={12}>
                 <p className={styles.textdolfin}>
