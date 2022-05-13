@@ -7,6 +7,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
+        <link href="https://fonts.googleapis.com/css2?family=Lalezar&display=swap" rel="stylesheet" />
         <title>باشگاه دلفین گربدان</title>
         <meta name="description" content="⚽ باشگاه فرهنگی ورزشی دلفین گربدان ⚽ 
         باشگاه فوتبال دلفین گربدان یکی از پر افتخارترین و پر هوادارترین باشگاه های فوتبال در جزیره قشم است دلفین گربدان پیش از انقلاب ستاره جنوب گربدان نام داشت باشگاه هم اکنون در لیگ دسته دو قشم قرار گرفته دلفین گربدان در سال 1324 در جزیره قشم روستای گربدان بنیان گذاری شده است" />
