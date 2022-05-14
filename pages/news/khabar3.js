@@ -19,6 +19,13 @@ const khabar3 = () => {
         />
       </Head>
       <Container>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
         <Row>
           <Col sm={12} className={styles.news1}>
             <h3>

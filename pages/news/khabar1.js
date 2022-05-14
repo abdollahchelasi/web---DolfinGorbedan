@@ -22,6 +22,13 @@ const khabar1 = () => {
         />
       </Head>
       <Container>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
         <Row>
           <Col sm={12} className={styles.news1}>
             <h3> همه نگاه‌ها به دلفین گربدان, لیگ 2 در اوج حساسیت </h3>

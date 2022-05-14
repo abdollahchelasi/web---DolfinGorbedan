@@ -114,6 +114,25 @@ padding-top: 1px;
   
 }
 
+.time{
+  text-shadow: rgb(3, 37, 88) 1px 1px 5px;
+  border-radius: 4px;
+  padding: 3px;
+}
+.pdast:hover{
+  cursor: pointer;
+  background-image: linear-gradient(to bottom right, rgb(106, 91, 236), rgb(87, 8, 8));
+}
+
+.pdast{
+  color: white;
+}
+.dastras{
+  color: rgb(45, 46, 46);
+  border-top-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  background-image: linear-gradient(to bottom right, rgb(10, 73, 245), rgb(95, 55, 45));
+}
 
 
 .abdollah{
