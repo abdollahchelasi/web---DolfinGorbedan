@@ -54,7 +54,7 @@ padding-top: 1px;
 }
 #control{
   animation-name: example;
-  animation-duration: 5s;
+  animation-duration: 3s;
   animation-iteration-count: 6;
   box-shadow: rgb(70, 68, 61) 1px 1px 4px;
   border-color: aliceblue;
