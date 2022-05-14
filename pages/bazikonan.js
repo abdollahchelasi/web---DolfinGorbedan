@@ -54,7 +54,7 @@ function bazikonan() {
                 <Row>
                   <Col sm={2} />
 
-                  <Link href="/images/i1.jpg" passHref>
+                  <Link href="/images/i1.jpg" >
                     <Col className={styles.vidcoo1}>
                       <img
                         width={100}
@@ -65,7 +65,7 @@ function bazikonan() {
                     </Col>
                   </Link>
 
-                  <Link href="/images/passdolfin.jpg" passHref>
+                  <Link href="/images/passdolfin.jpg" >
                     <Col className={styles.vidcoo2}>
                       <img
                         width={100}
@@ -84,7 +84,7 @@ function bazikonan() {
                 <Row>
                   <Col sm={2} />
 
-                  <Link href="/images/i3.jpg" passHref>
+                  <Link href="/images/i3.jpg" >
                     <Col className={styles.vidcoo1}>
                       <img
                         width={100}
@@ -95,7 +95,7 @@ function bazikonan() {
                     </Col>
                   </Link>
 
-                  <Link href="/images/i4.jpg" passHref>
+                  <Link href="/images/i4.jpg" >
                     <Col className={styles.vidcoo2}>
                       <img
                         width={100}
@@ -113,7 +113,7 @@ function bazikonan() {
               <Col sm={12} className={styles.videoo}>
                 <Row>
                   <Col sm={2} />
-                  <Link href="/images/i5.jpg" passHref>
+                  <Link href="/images/i5.jpg" >
                     <Col className={styles.vidcoo1}>
                       <img
                         width={100}
@@ -124,7 +124,7 @@ function bazikonan() {
                     </Col>
                   </Link>
 
-                  <Link href="/images/i6.jpg" passHref>
+                  <Link href="/images/i6.jpg" >
                     <Col className={styles.vidcoo2}>
                       <img
                         width={100}
@@ -142,7 +142,7 @@ function bazikonan() {
               <Col sm={12} className={styles.videoo}>
                 <Row>
                   <Col sm={2} />
-                  <Link href="/images/i7.jpg" passHref>
+                  <Link href="/images/i7.jpg" >
                     <Col className={styles.vidcoo1}>
                       <img
                         width={100}
@@ -153,7 +153,7 @@ function bazikonan() {
                     </Col>
                   </Link>
 
-                  <Link href="/images/i8.jpg" passHref>
+                  <Link href="/images/i8.jpg" >
                     <Col className={styles.vidcoo2}>
                       <img
                         width={100}
@@ -171,7 +171,7 @@ function bazikonan() {
               <Col sm={12} className={styles.videoo}>
                 <Row>
                   <Col sm={2} />
-                  <Link href="/images/i9.jpg" passHref>
+                  <Link href="/images/i9.jpg" >
                     <Col className={styles.vidcoo1}>
                       <img
                         width={100}
@@ -182,7 +182,7 @@ function bazikonan() {
                     </Col>
                   </Link>
 
-                  <Link href="/images/i10.jpg" passHref>
+                  <Link href="/images/i10.jpg" >
                     <Col className={styles.vidcoo2}>
                       <img
                         width={100}
@@ -200,7 +200,7 @@ function bazikonan() {
               <Col sm={12} className={styles.videoo}>
                 <Row>
                   <Col sm={2} />
-                  <Link href="/images/i11.jpg" passHref>
+                  <Link href="/images/i11.jpg" >
                     <Col className={styles.vidcoo1}>
                       <img
                         width={100}
@@ -211,7 +211,7 @@ function bazikonan() {
                     </Col>
                   </Link>
 
-                  <Link href="/images/i12.jpg" passHref>
+                  <Link href="/images/i12.jpg" >
                     <Col className={styles.vidcoo2}>
                       <img
                         width={100}
@@ -229,7 +229,7 @@ function bazikonan() {
               <Col sm={12} className={styles.videoo}>
                 <Row>
                   <Col sm={2} />
-                  <Link href="/images/i13.jpg" passHref>
+                  <Link href="/images/i13.jpg" >
                     <Col className={styles.vidcoo1}>
                       <img
                         width={100}
@@ -240,7 +240,7 @@ function bazikonan() {
                     </Col>
                   </Link>
 
-                  <Link href="/images/i14.jpg" passHref>
+                  <Link href="/images/i14.jpg" >
                     <Col className={styles.vidcoo2}>
                       <img
                         width={100}
@@ -258,7 +258,7 @@ function bazikonan() {
               <Col sm={12} className={styles.videoo}>
                 <Row>
                   <Col sm={2} />
-                  <Link href="/images/i15.jpg" passHref>
+                  <Link href="/images/i15.jpg" >
                     <Col className={styles.vidcoo1}>
                       <img
                         width={100}
@@ -269,7 +269,7 @@ function bazikonan() {
                     </Col>
                   </Link>
 
-                  <Link href="/images/i16.jpg" passHref>
+                  <Link href="/images/i16.jpg" >
                     <Col className={styles.vidcoo2}>
                       <img
                         width={100}
@@ -287,7 +287,7 @@ function bazikonan() {
               <Col sm={12} className={styles.videoo}>
                 <Row>
                   <Col sm={2} />
-                  <Link href="/images/i17.jpg" passHref>
+                  <Link href="/images/i17.jpg" >
                     <Col className={styles.vidcoo1}>
                       <img
                         width={100}
@@ -298,7 +298,7 @@ function bazikonan() {
                     </Col>
                   </Link>
 
-                  <Link href="/images/i18.jpg" passHref>
+                  <Link href="/images/i18.jpg" >
                     <Col className={styles.vidcoo2}>
                       <img
                         width={100}
@@ -316,7 +316,7 @@ function bazikonan() {
               <Col sm={12} className={styles.videoo}>
                 <Row>
                   <Col sm={2} />
-                  <Link href="/images/i19.jpg" passHref>
+                  <Link href="/images/i19.jpg" >
                     <Col className={styles.vidcoo1}>
                       <img
                         width={100}
@@ -327,7 +327,7 @@ function bazikonan() {
                     </Col>
                   </Link>
 
-                  <Link href="/images/i20.jpg" passHref>
+                  <Link href="/images/i20.jpg" >
                     <Col className={styles.vidcoo2}>
                       <img
                         width={100}
@@ -345,7 +345,7 @@ function bazikonan() {
               <Col sm={12} className={styles.videoo}>
                 <Row>
                   <Col sm={2} />
-                  <Link href="/images/i21.jpg" passHref>
+                  <Link href="/images/i21.jpg" >
                     <Col className={styles.vidcoo1}>
                       <img
                         width={100}
@@ -356,7 +356,7 @@ function bazikonan() {
                     </Col>
                   </Link>
 
-                  <Link href="/images/i22.jpg" passHref>
+                  <Link href="/images/i22.jpg" >
                     <Col className={styles.vidcoo2}>
                       <img
                         width={100}
@@ -374,7 +374,7 @@ function bazikonan() {
               <Col sm={12} className={styles.videoo}>
                 <Row>
                   <Col sm={2} />
-                  <Link href="/images/i23.jpg" passHref>
+                  <Link href="/images/i23.jpg" >
                     <Col className={styles.vidcoo1}>
                       <img
                         width={100}
@@ -385,7 +385,7 @@ function bazikonan() {
                     </Col>
                   </Link>
 
-                  <Link href="/images/i24.jpg" passHref>
+                  <Link href="/images/i24.jpg" >
                     <Col className={styles.vidcoo2}>
                       <img
                         width={100}
@@ -403,7 +403,7 @@ function bazikonan() {
               <Col sm={12} className={styles.videoo}>
                 <Row>
                   <Col sm={2} />
-                  <Link href="/images/i25.jpg" passHref>
+                  <Link href="/images/i25.jpg" >
                     <Col className={styles.vidcoo1}>
                       <img
                         width={100}
@@ -414,7 +414,7 @@ function bazikonan() {
                     </Col>
                   </Link>
 
-                  <Link href="/images/i26.jpg" passHref>
+                  <Link href="/images/i26.jpg" >
                     <Col className={styles.vidcoo2}>
                       <img
                         width={100}
@@ -432,7 +432,7 @@ function bazikonan() {
               <Col sm={12} className={styles.videoo}>
                 <Row>
                   <Col sm={2} />
-                  <Link href="/images/i27.jpg" passHref>
+                  <Link href="/images/i27.jpg" >
                     <Col className={styles.vidcoo1}>
                       <img
                         width={100}
@@ -443,7 +443,7 @@ function bazikonan() {
                     </Col>
                   </Link>
 
-                  <Link href="/images/i28.jpg" passHref>
+                  <Link href="/images/i28.jpg" >
                     <Col className={styles.vidcoo2}>
                       <img
                         width={100}
@@ -461,7 +461,7 @@ function bazikonan() {
               <Col sm={12} className={styles.videoo}>
                 <Row>
                   <Col sm={2} />
-                  <Link href="/images/i29.jpg" passHref>
+                  <Link href="/images/i29.jpg" >
                     <Col className={styles.vidcoo1}>
                       <img
                         width={100}
@@ -472,7 +472,7 @@ function bazikonan() {
                     </Col>
                   </Link>
 
-                  <Link href="/images/i30.jpg" passHref>
+                  <Link href="/images/i30.jpg" >
                     <Col className={styles.vidcoo2}>
                       <img
                         width={100}
@@ -490,7 +490,7 @@ function bazikonan() {
               <Col sm={12} className={styles.videoo}>
                 <Row>
                   <Col sm={2} />
-                  <Link href="/images/i31.jpg" passHref>
+                  <Link href="/images/i31.jpg" >
                     <Col className={styles.vidcoo1}>
                       <img
                         width={100}
@@ -501,7 +501,7 @@ function bazikonan() {
                     </Col>
                   </Link>
 
-                  <Link href="/images/i32.jpg" passHref>
+                  <Link href="/images/i32.jpg" >
                     <Col className={styles.vidcoo2}>
                       <img
                         width={100}
@@ -519,7 +519,7 @@ function bazikonan() {
               <Col sm={12} className={styles.videoo}>
                 <Row>
                   <Col sm={2} />
-                  <Link href="/images/i33.jpg" passHref>
+                  <Link href="/images/i33.jpg" >
                     <Col className={styles.vidcoo1}>
                       <img
                         width={100}
@@ -530,7 +530,7 @@ function bazikonan() {
                     </Col>
                   </Link>
 
-                  <Link href="/images/i34.jpg" passHref>
+                  <Link href="/images/i34.jpg" >
                     <Col className={styles.vidcoo2}>
                       <img
                         width={100}
@@ -548,7 +548,7 @@ function bazikonan() {
               <Col sm={12} className={styles.videoo}>
                 <Row>
                   <Col sm={2} />
-                  <Link href="/images/i35.jpg" passHref>
+                  <Link href="/images/i35.jpg" >
                     <Col className={styles.vidcoo1}>
                       <img
                         width={100}
@@ -559,7 +559,7 @@ function bazikonan() {
                     </Col>
                   </Link>
 
-                  <Link href="/images/i36.jpg" passHref>
+                  <Link href="/images/i36.jpg" >
                     <Col className={styles.vidcoo2}>
                       <img
                         width={100}
@@ -577,7 +577,7 @@ function bazikonan() {
               <Col sm={12} className={styles.videoo}>
                 <Row>
                   <Col sm={2} />
-                  <Link href="/images/i37.jpg" passHref>
+                  <Link href="/images/i37.jpg" >
                     <Col className={styles.vidcoo1}>
                       <img
                         width={100}
@@ -588,7 +588,7 @@ function bazikonan() {
                     </Col>
                   </Link>
 
-                  <Link href="/images/i38.jpg" passHref>
+                  <Link href="/images/i38.jpg" >
                     <Col className={styles.vidcoo2}>
                       <img
                         width={100}
@@ -606,7 +606,7 @@ function bazikonan() {
               <Col sm={12} className={styles.videoo}>
                 <Row>
                   <Col sm={2} />
-                  <Link href="/images/i39.jpg" passHref>
+                  <Link href="/images/i39.jpg" >
                     <Col className={styles.vidcoo1}>
                       <img
                         width={100}
@@ -617,7 +617,7 @@ function bazikonan() {
                     </Col>
                   </Link>
 
-                  <Link href="/images/i40.jpg" passHref>
+                  <Link href="/images/i40.jpg" >
                     <Col className={styles.vidcoo2}>
                       <img
                         width={100}
@@ -635,7 +635,7 @@ function bazikonan() {
               <Col sm={12} className={styles.videoo}>
                 <Row>
                   <Col sm={2} />
-                  <Link href="/images/i41.jpg" passHref>
+                  <Link href="/images/i41.jpg" >
                     <Col className={styles.vidcoo1}>
                       <img
                         width={100}
@@ -646,7 +646,7 @@ function bazikonan() {
                     </Col>
                   </Link>
 
-                  <Link href="/images/i42.jpg" passHref>
+                  <Link href="/images/i42.jpg" >
                     <Col className={styles.vidcoo2}>
                       <img
                         width={100}
@@ -663,7 +663,7 @@ function bazikonan() {
               <Col sm={12} className={styles.videoo}>
                 <Row>
                   <Col sm={2} />
-                  <Link href="/images/i43.jpg" passHref>
+                  <Link href="/images/i43.jpg" >
                     <Col className={styles.vidcoo1}>
                       <img
                         width={100}
@@ -674,7 +674,7 @@ function bazikonan() {
                     </Col>
                   </Link>
 
-                  <Link href="/images/i44.jpg" passHref>
+                  <Link href="/images/i44.jpg" >
                     <Col className={styles.vidcoo2}>
                       <img
                       
