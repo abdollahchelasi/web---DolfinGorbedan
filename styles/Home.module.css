@@ -118,16 +118,17 @@ padding-top: 1px;
 
 .abdollah{
   padding-top: 30px;
-  color: white;
+  font-size: 15px;
+  color: rgb(190, 188, 188);
   margin-bottom: 11px;
 }
 
 .abdol{
   border-radius: 4px;
   background-image: linear-gradient(to bottom right, rgb(84, 113, 201), rgb(207, 72, 38));
-  padding: 6px;
-  margin: 5px;
-  color:white;
+  padding: 1px;
+  margin: 6px;
+  color:rgb(255, 255, 255);
   text-decoration:none !important;
 }
 .abdol:hover{
