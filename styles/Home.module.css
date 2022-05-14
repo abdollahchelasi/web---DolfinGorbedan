@@ -1,7 +1,14 @@
 @keyframes example {
   0%   {background-image: linear-gradient(to bottom right, rgb(1, 68, 250), rgb(201, 74, 43));}
+  10%   {background-image: linear-gradient(to bottom right, rgb(46, 74, 153), rgb(201, 74, 43));}
   25%  {background-image: linear-gradient(to bottom right, rgb(38, 38, 87), rgb(245, 112, 112));}
+  33%  {background-image: linear-gradient(to bottom right, rgb(12, 12, 49), rgb(245, 112, 112));}
+  43%  {background-image: linear-gradient(to bottom right, rgb(243, 38, 38), rgb(245, 112, 112));}
   50%  {background-image: linear-gradient(to bottom right, rgb(92, 18, 18), rgb(46, 45, 95));}
+  60%  {background-image: linear-gradient(to bottom right, rgb(170, 64, 64), rgb(46, 45, 95));}
+  70%  {background-image: linear-gradient(to bottom right, rgb(34, 47, 105), rgb(46, 45, 95));}
+  80%  {background-image: linear-gradient(to bottom right, rgb(10, 0, 0), rgb(46, 45, 95));}
+  90%  {background-image: linear-gradient(to bottom right, rgb(3, 17, 63), rgb(46, 45, 95));}
   100% {background-image: linear-gradient(to bottom right, rgb(59, 13, 53), rgb(33, 34, 61));}
 }
 @keyframes txtdolfin{
@@ -46,12 +53,13 @@ padding-top: 1px;
   background-image: linear-gradient(to bottom right, rgb(255, 56, 56), rgb(77, 42, 255));
 }
 #control{
+  animation-name: example;
+  animation-duration: 5s;
+  animation-iteration-count: 6;
   box-shadow: rgb(70, 68, 61) 1px 1px 4px;
   border-color: aliceblue;
   background-image: linear-gradient(to bottom right, rgb(100, 0, 0), rgb(19, 1, 104));
 }
-
-
 
 
 .hom2{
@@ -66,9 +74,9 @@ padding-top: 1px;
   position: fixed;
   top: 0;
   width: 100%;
-  animation-name: example;
+  /* animation-name: example;
   animation-duration: 5s;
-  animation-iteration-count: 3;
+  animation-iteration-count: 3; */
   width: 100%;
   box-shadow: rgb(17, 17, 17) 1px 1px 6px;
   margin-bottom: 30px;
