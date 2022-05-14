@@ -58,8 +58,11 @@ padding-top: 1px;
   background-image: linear-gradient(to bottom right, rgb(10, 73, 245), rgb(95, 55, 45));
   box-shadow: rgb(36, 37, 37) 2px 6px 7px;
 }
+
 .navb{
-  position: relative;
+  position: fixed;
+  top: 0;
+  width: 100%;
   animation-name: example;
   animation-duration: 5s;
   animation-iteration-count: 3;
