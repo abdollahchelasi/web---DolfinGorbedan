@@ -5,7 +5,7 @@ import Navb from "./Navb";
 const Layout = ({ children }) => {
   return (
     <div dir="rtl">
-      <Navb />
+      <Navb  />
       <Container fluid>
 
       <Row>

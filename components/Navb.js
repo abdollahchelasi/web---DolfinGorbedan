@@ -7,7 +7,7 @@ const Navb = () => {
   return (
     <>
     
-      <Navbar className={styles.navb} fixed="top" variant="dark" expand="sm">
+      <Navbar fixed="top" className={styles.navb}  variant="dark" expand="sm">
         <Container>
           <img src="/images/dolfin.png" width={60} height={60}/>
           <Navbar.Brand href="#home">
