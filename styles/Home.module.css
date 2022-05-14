@@ -116,6 +116,7 @@ padding-top: 1px;
   background-image: linear-gradient(to bottom right, rgb(84, 113, 201), rgb(207, 72, 38));
   padding: 6px;
   margin: 5px;
+  color:white;
   text-decoration:none !important;
 }
 .abdol:hover{
